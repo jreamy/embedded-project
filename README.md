@@ -1,2 +1,1 @@
-# jreamy17
-
+# Mind-Controlled Prosthetic Fingers
