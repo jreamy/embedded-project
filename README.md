@@ -17,5 +17,5 @@
  - 3-bit address configuration
  - 1 address byte, 1 control byte
  - 400kHz max SCL
+ - 7-bit addr 0xE_ final 3-bits set
  - page 11 for data transfer protocol
- 
