@@ -19,3 +19,12 @@
  - 400kHz max SCL
  - 7-bit addr 0xE_ final 3-bits set
  - page 11 for data transfer protocol
+
+**Servo PWM Driver** : *NXP PCA9685PW,118*
+ - [Datasheet](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf)
+ - [Usage Schematic](https://cdn-learn.adafruit.com/assets/assets/000/036/269/original/adafruit_products_schem.png?1475858980)
+ - [Usage Footprint](https://cdn-learn.adafruit.com/assets/assets/000/036/270/original/adafruit_products_fabprint.png?1475859206)
+ - [Driver Code](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library)
+ - Internal clock
+ - 6-bit configurable address (1,addr,r/w)
+ - page 9 for data transfer protocol
