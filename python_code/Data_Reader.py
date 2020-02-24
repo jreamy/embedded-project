@@ -10,8 +10,12 @@ class Data_Reader():
         if isinstance(text, str):
             self.ser.write(text.encode())
 
-    def recieve(self, bytes):
-        return self.ser.read(size=bytes)
+    def recieve(self):
+        command_char = self.ser.read(1)
+        if command_char == b"t":
+            return self.ser.read(5)
+        else:
+            return command_char
 
     def available(self):
         return self.ser.in_waiting

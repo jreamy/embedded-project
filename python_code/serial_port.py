@@ -3,8 +3,8 @@
 from Data_Reader import Data_Reader
 
 dr = Data_Reader()
-dr.send("text\n\r")
+dr.send("ttext\n\r")
 while not dr.available():
     pass
-while dr.available():
-    print(dr.recieve(6))
+
+print(dr.recieve())
