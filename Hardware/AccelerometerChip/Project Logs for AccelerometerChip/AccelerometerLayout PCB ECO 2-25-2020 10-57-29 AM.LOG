@@ -1,0 +1,26 @@
+Added Component: Designator=P1(282834-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "282834-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "282834-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "THRU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "A98335-ND"; VariantName = "[No Variations]"
+Added Component: Designator=P2(282834-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "282834-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "282834-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "THRU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "A98335-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=P1-1
+Added Pin To Net: NetName=SCL Pin=P1-2
+Added Pin To Net: NetName=SDA Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=3V3 Pin=P2-1
+Added Pin To Net: NetName=SCL Pin=P2-2
+Added Pin To Net: NetName=SDA Pin=P2-3
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component P1 282834-4
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component P2 282834-4
