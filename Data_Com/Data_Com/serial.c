@@ -151,7 +151,7 @@ void serial_write(uint8_t data)
 
 uint8_t serial_register_tx(serial_tx_callback tx_func)
 {
-	if (*(_tx_callback) == 0) {
+	if (*(_tx_callback) == (serial_tx_callback) 0) {
 		return _tx_callback = tx_func;
 	} else {
 		return 0;
@@ -160,8 +160,8 @@ uint8_t serial_register_tx(serial_tx_callback tx_func)
 
 uint8_t serial_unregister_tx(serial_tx_callback tx_func)
 {
-	if (_tx_callback == tx_func) {
-		_tx_callback = NULL;
+	if (*(_tx_callback) == *(tx_func)) {
+		_tx_callback = (serial_tx_callback) 0;
 		return 1;
 	} else {
 		return 0;

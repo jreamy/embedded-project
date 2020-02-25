@@ -57,9 +57,9 @@ int main(void)
 {
 	uint64_t last_time = 0;
 	uint64_t current_time = 0;
-	uint8_t *data_string = "\nText\n";
-	uint8_t *data_ints = {90, 85, 10};
-	uint8_t *other = {9, 50, 255, 98};
+	uint8_t *data_string = "Text\n";
+	uint8_t data_ints[] = {90, 85, 10};
+	uint8_t other[] = {9, 50, 255, 98};
 	
     /* Initialize the SAM system */
     SystemInit();
@@ -71,11 +71,11 @@ int main(void)
     {
 		transmit('t', data_string);
 		last_time = timer_get();
-		while (timer_get() < last_time + 5000) {}
+		while (timer_get() < last_time + 500) {}
 		
 		transmit('i', data_ints);
 		last_time = timer_get();
-		while (timer_get() < last_time + 5000) {}
+		while (timer_get() < last_time + 500) {}
     }
 }
 
