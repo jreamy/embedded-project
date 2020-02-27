@@ -7,4 +7,4 @@ The accelerometer chip is a 4-wire to 4-wire board designed to hold a single KX0
 
 Chip needs mounting holes!
 
-![alt text](Layouts/AccelerometerChipLayout.png "Accelerometer Chip Layout" =400x)
+<img src="Layouts/AccelerometerChipLayout.png" alt="Accelerometer Chip Layout" width="400"/>
