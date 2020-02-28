@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=AccelerometerSchematic Member=DR1
+Removed Member From Class: ClassName=AccelerometerSchematic Member=DR2
+Removed Member From Class: ClassName=AccelerometerSchematic Member=DR3
+Removed Member From Class: ClassName=AccelerometerSchematic Member=DR4
+Added Room: Name=AccelerometerSchematic
