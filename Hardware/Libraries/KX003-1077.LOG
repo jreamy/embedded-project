@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : KX003-1077.LibPkg
+
+Section : \\mcse-files1\studentfiles$\jreamy17\Documents\Embedded\jreamy17\Hardware\AccelerometerChip\imports\KX003-1077.lia
+    Section : PCB Library - KX003-1077.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token KX003-1077 On Line 205
+            Warning - 1 : Skipping Token attachedSymbol On Line 322
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - KX003-1077.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 98
+            Warning - 1 : Skipping Token layerContents On Line 107
+            Warning - 1 : Skipping Token layerContents On Line 116
+            Warning - 1 : Skipping Token layerContents On Line 123
+            Warning - 1 : Skipping Token layerContents On Line 197
+        EndSection
+
+        Section : Generating SCH Library - KX003-1077.SchLib
+        EndSection
+    EndSection
+EndSection

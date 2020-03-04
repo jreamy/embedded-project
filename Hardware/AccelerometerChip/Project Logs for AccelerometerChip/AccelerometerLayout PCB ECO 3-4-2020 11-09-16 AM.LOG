@@ -1,0 +1,5 @@
+Change Component Description : Designator=U1 Old Description=Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3.5kHz _X,Y_, 1.8kHz _Z_ 12-LGA _2x2_ New Description=
+Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3.5kHz _X,Y_, 1.8kHz _Z_ 12-LGA _2x2_
+
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component ADDR 90120-0122
+Added Room: Name=AccelerometerSchematic
