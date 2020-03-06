@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=3V3 Pin=ADDR-1
+Removed Pin From Net: NetName=SDA Pin=P1-2
+Removed Pin From Net: NetName=SCL Pin=P1-5
+Removed Pin From Net: NetName=GND Pin=R1-1
+Removed Member From Class: ClassName=FingerBase Member=ADDR
+Removed Member From Class: ClassName=FingerBase Member=R1
+Change Component Description : Designator=U1 Old Description=Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3.5kHz _X,Y_, 1.8kHz _Z_ 12-LGA _2x2_ New Description=
+Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3.5kHz _X,Y_, 1.8kHz _Z_ 12-LGA _2x2_
+
+Added Pin To Net: NetName=SCL Pin=P1-3
+Added Pin To Net: NetName=SDA Pin=P1-4
+Added Pin To Net: NetName=GND Pin=U1-3
+Change Class Name : Old Net Name=FingerBase New Net Name=FingMiddle
+Added Room: Name=FingMiddle
