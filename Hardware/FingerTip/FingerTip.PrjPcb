@@ -55,57 +55,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=FingerBase.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
-DocumentPath=FingerBase.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TSMFRJFG
-
-[Document4]
-DocumentPath=FingerBase.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XGURLQRX
-
-[Document5]
 DocumentPath=..\Libraries\CL21B124KBFNNNE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document3]
 DocumentPath=..\Libraries\CL21B124KBFNNNE.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,9 +86,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=NZDJPGXJ
 
-[Document7]
+[Document4]
 DocumentPath=..\Libraries\KX003-1077.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document5]
 DocumentPath=..\Libraries\KX003-1077.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -171,9 +120,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DOTQGDTD
 
-[Document9]
+[Document6]
 DocumentPath=..\Libraries\RC0805JR-0710KL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,8 +139,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document7]
 DocumentPath=..\Libraries\RC0805JR-0710KL.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QRKEUBHR
+
+[Document8]
+DocumentPath=FingerTip.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=FingerTip.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TSMFRJFG
+
+[Document10]
+DocumentPath=FingerTip.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +208,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=FingerBaseDrill.Cam
+DocumentPath=FingerTipDrill.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -225,7 +225,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=FingerBaseGerber.Cam
+DocumentPath=FingerTipGerber.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -242,55 +242,55 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for FingerBase\FingerBase.DRR
+DocumentPath=Project Outputs for FingerTip\FingerTip.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for FingerBase\FingerBase.EXTREP
+DocumentPath=Project Outputs for FingerTip\FingerTip.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GBL
+DocumentPath=Project Outputs for FingerTip\FingerTip.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GBO
+DocumentPath=Project Outputs for FingerTip\FingerTip.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GBS
+DocumentPath=Project Outputs for FingerTip\FingerTip.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GKO
+DocumentPath=Project Outputs for FingerTip\FingerTip.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GTL
+DocumentPath=Project Outputs for FingerTip\FingerTip.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GTO
+DocumentPath=Project Outputs for FingerTip\FingerTip.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for FingerBase\FingerBase.GTS
+DocumentPath=Project Outputs for FingerTip\FingerTip.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for FingerBase\FingerBase.LDP
+DocumentPath=Project Outputs for FingerTip\FingerTip.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for FingerBase\FingerBase.REP
+DocumentPath=Project Outputs for FingerTip\FingerTip.REP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for FingerBase\FingerBase.RUL
+DocumentPath=Project Outputs for FingerTip\FingerTip.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for FingerBase\FingerBase.TXT
+DocumentPath=Project Outputs for FingerTip\FingerTip.TXT
 DItemRevisionGUID=
 
 [Configuration1]
