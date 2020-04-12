@@ -1,5 +1,6 @@
 
 import serial
+from hand import Hand
 
 class Data_Reader():
 
@@ -18,9 +19,13 @@ class Data_Reader():
         if command_char == b't':
             data = self.ser.readline(10)
             return ('t', ''.join([chr(int(x)) for x in data[:-1]]))
-        elif command_char == b"i":
+        elif command_char == b'i':
             data = self.ser.read(3)
             return ('i', [int(x) for x in data])
+        elif command_char == b'h':
+            data = self.ser.read(32)
+            return ('h', Hand([(data[x*2+1]<<8) | data[x*2]
+                for x in range(16)]))
         else:
             return (command_char)
 

@@ -1,0 +1,143 @@
+PCAD Importer Log
+Project : AltiumV15.LibPkg
+
+Section : \\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\footprints\AltiumV15.lia
+    Section : PCB Library - AltiumV15.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token poly On Line 402
+            Warning - 1 : Skipping Token poly On Line 442
+            Warning - 1 : Skipping Token poly On Line 482
+            Warning - 1 : Skipping Token poly On Line 522
+            Warning - 1 : Skipping Token poly On Line 562
+            Warning - 1 : Skipping Token poly On Line 602
+            Warning - 1 : Skipping Token poly On Line 642
+            Warning - 1 : Skipping Token poly On Line 682
+            Warning - 1 : Skipping Token poly On Line 722
+            Warning - 1 : Skipping Token poly On Line 762
+            Warning - 1 : Skipping Token poly On Line 802
+            Warning - 1 : Skipping Token poly On Line 842
+            Warning - 1 : Skipping Token LP5036RJV On Line 900
+            Warning - 1 : Skipping Token attachedSymbol On Line 1342
+        EndSection
+
+        Section : Import Messages
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+        EndSection
+    EndSection
+
+    Section : SCH Library - AltiumV15.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 10
+            Warning - 1 : Skipping Token padStyleDef On Line 20
+            Warning - 1 : Skipping Token padStyleDef On Line 30
+            Warning - 1 : Skipping Token multiLayer On Line 311
+            Warning - 1 : Skipping Token layerContents On Line 377
+            Warning - 1 : Skipping Token layerContents On Line 380
+            Warning - 1 : Skipping Token layerContents On Line 383
+            Warning - 1 : Skipping Token layerContents On Line 386
+            Warning - 1 : Skipping Token layerContents On Line 389
+            Warning - 1 : Skipping Token layerContents On Line 392
+            Warning - 1 : Skipping Token layerContents On Line 395
+            Warning - 1 : Skipping Token layerContents On Line 398
+            Warning - 1 : Skipping Token layerContents On Line 401
+            Warning - 1 : Skipping Token layerContents On Line 441
+            Warning - 1 : Skipping Token layerContents On Line 481
+            Warning - 1 : Skipping Token layerContents On Line 521
+            Warning - 1 : Skipping Token layerContents On Line 561
+            Warning - 1 : Skipping Token layerContents On Line 601
+            Warning - 1 : Skipping Token layerContents On Line 641
+            Warning - 1 : Skipping Token layerContents On Line 681
+            Warning - 1 : Skipping Token layerContents On Line 721
+            Warning - 1 : Skipping Token layerContents On Line 761
+            Warning - 1 : Skipping Token layerContents On Line 801
+            Warning - 1 : Skipping Token layerContents On Line 841
+            Warning - 1 : Skipping Token layerContents On Line 881
+            Warning - 1 : Skipping Token layerContents On Line 884
+            Warning - 1 : Skipping Token layerContents On Line 887
+            Warning - 1 : Skipping Token layerContents On Line 890
+            Warning - 1 : Skipping Token layerContents On Line 893
+            Warning - 1 : Skipping Token layerContents On Line 896
+            Warning - 1 : Skipping Token defaultPinDes On Line 912
+            Warning - 1 : Skipping Token defaultPinDes On Line 920
+            Warning - 1 : Skipping Token defaultPinDes On Line 928
+            Warning - 1 : Skipping Token defaultPinDes On Line 936
+            Warning - 1 : Skipping Token defaultPinDes On Line 944
+            Warning - 1 : Skipping Token defaultPinDes On Line 952
+            Warning - 1 : Skipping Token defaultPinDes On Line 960
+            Warning - 1 : Skipping Token defaultPinDes On Line 968
+            Warning - 1 : Skipping Token defaultPinDes On Line 976
+            Warning - 1 : Skipping Token defaultPinDes On Line 984
+            Warning - 1 : Skipping Token defaultPinDes On Line 992
+            Warning - 1 : Skipping Token defaultPinDes On Line 1000
+            Warning - 1 : Skipping Token defaultPinDes On Line 1008
+            Warning - 1 : Skipping Token defaultPinDes On Line 1016
+            Warning - 1 : Skipping Token defaultPinDes On Line 1024
+            Warning - 1 : Skipping Token defaultPinDes On Line 1032
+            Warning - 1 : Skipping Token defaultPinDes On Line 1040
+            Warning - 1 : Skipping Token defaultPinDes On Line 1048
+            Warning - 1 : Skipping Token defaultPinDes On Line 1056
+            Warning - 1 : Skipping Token defaultPinDes On Line 1064
+            Warning - 1 : Skipping Token defaultPinDes On Line 1072
+            Warning - 1 : Skipping Token defaultPinDes On Line 1080
+            Warning - 1 : Skipping Token defaultPinDes On Line 1088
+            Warning - 1 : Skipping Token defaultPinDes On Line 1096
+            Warning - 1 : Skipping Token defaultPinDes On Line 1104
+            Warning - 1 : Skipping Token defaultPinDes On Line 1112
+            Warning - 1 : Skipping Token defaultPinDes On Line 1120
+            Warning - 1 : Skipping Token defaultPinDes On Line 1128
+            Warning - 1 : Skipping Token defaultPinDes On Line 1136
+            Warning - 1 : Skipping Token defaultPinDes On Line 1144
+            Warning - 1 : Skipping Token defaultPinDes On Line 1152
+            Warning - 1 : Skipping Token defaultPinDes On Line 1160
+            Warning - 1 : Skipping Token defaultPinDes On Line 1168
+            Warning - 1 : Skipping Token defaultPinDes On Line 1176
+            Warning - 1 : Skipping Token defaultPinDes On Line 1184
+            Warning - 1 : Skipping Token defaultPinDes On Line 1192
+            Warning - 1 : Skipping Token defaultPinDes On Line 1200
+            Warning - 1 : Skipping Token defaultPinDes On Line 1208
+            Warning - 1 : Skipping Token defaultPinDes On Line 1216
+            Warning - 1 : Skipping Token defaultPinDes On Line 1224
+            Warning - 1 : Skipping Token defaultPinDes On Line 1232
+            Warning - 1 : Skipping Token defaultPinDes On Line 1240
+            Warning - 1 : Skipping Token defaultPinDes On Line 1248
+            Warning - 1 : Skipping Token defaultPinDes On Line 1256
+            Warning - 1 : Skipping Token defaultPinDes On Line 1264
+            Warning - 1 : Skipping Token defaultPinDes On Line 1272
+            Warning - 1 : Skipping Token defaultPinDes On Line 1280
+        EndSection
+
+        Section : Generating SCH Library - AltiumV15.SchLib
+        EndSection
+    EndSection
+EndSection

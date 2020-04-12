@@ -71,11 +71,11 @@ int main(void)
     {
 		transmit('t', data_string);
 		last_time = timer_get();
-		while (timer_get() < last_time + 500) {}
+		while (timer_get() - last_time < 500) {}
 		
 		transmit('i', data_ints);
 		last_time = timer_get();
-		while (timer_get() < last_time + 500) {}
+		while (timer_get() - last_time < 500) {}
     }
 }
 
