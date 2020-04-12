@@ -11,7 +11,7 @@ class Data_Reader():
         self.ser.__del__()
 
     def send(self, text):
-        if isinstance(text, str):
+        if isinstance(text, (str, Hand)):
             self.ser.write(text.encode())
 
     def recieve(self):
@@ -26,8 +26,12 @@ class Data_Reader():
             data = self.ser.read(32)
             return ('h', Hand([(data[x*2+1]<<8) | data[x*2]
                 for x in range(16)]))
+        elif command_char == b'c':
+            data = self.ser.read(32)
+            return ('c', Hand([(data[x*2+1]<<8) | data[x*2]
+                for x in range(16)]))
         else:
-            return (command_char)
+            return (command_char, command_char)
 
     def wait(self):
         while not self.available():
