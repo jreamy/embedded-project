@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SCL Pin=P1-3
+Removed Pin From Net: NetName=SDA Pin=P1-4
+Removed Pin From Net: NetName=3V3 Pin=P2-1
+Removed Pin From Net: NetName=SDA Pin=P2-2
+Removed Pin From Net: NetName=SCL Pin=P2-3
+Removed Pin From Net: NetName=SDA Pin=P2-4
+Removed Pin From Net: NetName=SCL Pin=P2-5
+Removed Pin From Net: NetName=GND Pin=P2-6
+Removed Member From Class: ClassName=AccelerometerSchematic Member=P2
+Added Room: Name=AccelerometerSchematic
