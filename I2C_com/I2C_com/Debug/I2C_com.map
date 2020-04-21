@@ -1,0 +1,2336 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                              servos.o (__aeabi_uidiv)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o)
+                              serial.o (__aeabi_d2uiz)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+                              serial.o (__aeabi_ddiv)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_dsub)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_d2iz)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+                              serial.o (__aeabi_ui2d)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_dcmpge)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o) (__clzsi2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+_hand_joint         0x1               hand.o
+_kx003_reg          0x1               kx003.o
+__lock___atexit_recursive_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+I2C_callback        0x8               i2c.o
+_kx003_idx          0x1               kx003.o
+_servos_idx         0x1               servos.o
+__lock___env_recursive_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+_hand_output        0x4               hand.o
+_servos_data        0x1               servos.o
+_hand_mode          0x1               hand.o
+_kx003_bytes        0x1               kx003.o
+__lock___malloc_recursive_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+_i2c_addr           0x1               i2c.o
+_i2c_mux_data       0x1               i2c_mux.o
+_servos_list        0x4               servos.o
+_hand_i2c_stat      0x1               hand.o
+_kx003_dest         0x4               kx003.o
+_kx003_mode         0x1               kx003.o
+_hand_idx           0x1               hand.o
+_i2c_mux_state      0x1               i2c_mux.o
+_servos_reg         0x1               servos.o
+_i2c_mode           0x1               i2c.o
+_servos_mode        0x1               servos.o
+_i2c_flag           0x1               i2c.o
+_i2c_default        0x4               i2c.o
+__lock___at_quick_exit_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+_kx003_addr         0x1               kx003.o
+__lock___dd_hash_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+_i2c_init           0x1               i2c.o
+millis              0x8               timer.o
+__lock___sfp_recursive_mutex
+                    0x1               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+_i2c_callback       0x4               i2c.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .text          0x00000000       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/startup_samd21.o
+ .text          0x00000000        0x0 Device_Startup/startup_samd21.o
+ .data          0x00000000        0x0 Device_Startup/startup_samd21.o
+ .bss           0x00000000        0x0 Device_Startup/startup_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 Device_Startup/system_samd21.o
+ .text          0x00000000        0x0 Device_Startup/system_samd21.o
+ .bss           0x00000000        0x0 Device_Startup/system_samd21.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x10 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x8a4 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x22 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x87 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x51 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xef Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x6a Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x1df Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x39 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x3a Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x1f Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x250 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x67e Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x8b1 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x22e Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0xd5c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x4dc Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x9f6 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x82b Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x45f Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x5e Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x8f9 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x21c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x735 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x5e Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x632 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x3ac Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0xc76 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000     0x1092 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0xc4a Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x6ba Device_Startup/system_samd21.o
+ .debug_macro   0x00000000     0x1b3d Device_Startup/system_samd21.o
+ .debug_macro   0x00000000     0x143c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x340 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x7c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xa0 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x4c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xca Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x94 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x58 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x341 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x82 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x189 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xb8 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xa0 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xb2 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x1c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x1c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x1c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x7c Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x15a Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x10 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xdc Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x124 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xe2 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xe2 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xe2 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x12a Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x100 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0xf4 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x40f Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x40 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000      0x376 Device_Startup/system_samd21.o
+ .debug_macro   0x00000000     0x17df Device_Startup/system_samd21.o
+ .debug_macro   0x00000000       0x6d Device_Startup/system_samd21.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .group         0x00000000        0x8 hand.o
+ .text          0x00000000        0x0 hand.o
+ .data          0x00000000        0x0 hand.o
+ .bss           0x00000000        0x0 hand.o
+ .text.hand_init
+                0x00000000       0x2c hand.o
+ .text.hand_read
+                0x00000000       0x20 hand.o
+ .text.hand_read_complete
+                0x00000000      0x738 hand.o
+ .rodata        0x00000000      0x1ec hand.o
+ .text._hand_i2c_mux
+                0x00000000       0x48 hand.o
+ .text._hand_kx003
+                0x00000000       0x50 hand.o
+ .debug_info    0x00000000      0xb5a hand.o
+ .debug_abbrev  0x00000000      0x1d6 hand.o
+ .debug_loc     0x00000000      0xa00 hand.o
+ .debug_aranges
+                0x00000000       0x40 hand.o
+ .debug_ranges  0x00000000      0x330 hand.o
+ .debug_macro   0x00000000      0x3ed hand.o
+ .debug_macro   0x00000000      0x8a4 hand.o
+ .debug_macro   0x00000000       0x22 hand.o
+ .debug_macro   0x00000000       0x87 hand.o
+ .debug_macro   0x00000000       0x51 hand.o
+ .debug_macro   0x00000000       0xef hand.o
+ .debug_macro   0x00000000       0x6a hand.o
+ .debug_macro   0x00000000      0x1df hand.o
+ .debug_macro   0x00000000       0x39 hand.o
+ .debug_macro   0x00000000       0x3a hand.o
+ .debug_macro   0x00000000       0x1f hand.o
+ .debug_macro   0x00000000      0x250 hand.o
+ .debug_macro   0x00000000      0x67e hand.o
+ .debug_macro   0x00000000      0x8b1 hand.o
+ .debug_macro   0x00000000      0x22e hand.o
+ .debug_macro   0x00000000      0xd5c hand.o
+ .debug_macro   0x00000000      0x4dc hand.o
+ .debug_macro   0x00000000      0x9f6 hand.o
+ .debug_macro   0x00000000      0x82b hand.o
+ .debug_macro   0x00000000      0x45f hand.o
+ .debug_macro   0x00000000       0x5e hand.o
+ .debug_macro   0x00000000      0x8f9 hand.o
+ .debug_macro   0x00000000      0x21c hand.o
+ .debug_macro   0x00000000      0x735 hand.o
+ .debug_macro   0x00000000       0x5e hand.o
+ .debug_macro   0x00000000      0x632 hand.o
+ .debug_macro   0x00000000      0x3ac hand.o
+ .debug_macro   0x00000000      0xc76 hand.o
+ .debug_macro   0x00000000     0x1092 hand.o
+ .debug_macro   0x00000000      0xc4a hand.o
+ .debug_macro   0x00000000      0x6ba hand.o
+ .debug_macro   0x00000000     0x1b3d hand.o
+ .debug_macro   0x00000000     0x143c hand.o
+ .debug_macro   0x00000000      0x340 hand.o
+ .debug_macro   0x00000000       0x7c hand.o
+ .debug_macro   0x00000000       0xa0 hand.o
+ .debug_macro   0x00000000       0x4c hand.o
+ .debug_macro   0x00000000       0xca hand.o
+ .debug_macro   0x00000000       0x94 hand.o
+ .debug_macro   0x00000000       0x58 hand.o
+ .debug_macro   0x00000000      0x341 hand.o
+ .debug_macro   0x00000000       0x82 hand.o
+ .debug_macro   0x00000000      0x189 hand.o
+ .debug_macro   0x00000000       0xb8 hand.o
+ .debug_macro   0x00000000       0xa0 hand.o
+ .debug_macro   0x00000000       0xb2 hand.o
+ .debug_macro   0x00000000       0x1c hand.o
+ .debug_macro   0x00000000       0x1c hand.o
+ .debug_macro   0x00000000       0x1c hand.o
+ .debug_macro   0x00000000       0x7c hand.o
+ .debug_macro   0x00000000      0x15a hand.o
+ .debug_macro   0x00000000       0x10 hand.o
+ .debug_macro   0x00000000       0xdc hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000      0x124 hand.o
+ .debug_macro   0x00000000       0xe2 hand.o
+ .debug_macro   0x00000000       0xe2 hand.o
+ .debug_macro   0x00000000       0xe2 hand.o
+ .debug_macro   0x00000000      0x12a hand.o
+ .debug_macro   0x00000000      0x100 hand.o
+ .debug_macro   0x00000000       0xf4 hand.o
+ .debug_macro   0x00000000      0x40f hand.o
+ .debug_macro   0x00000000       0x40 hand.o
+ .debug_macro   0x00000000      0x376 hand.o
+ .debug_macro   0x00000000     0x17df hand.o
+ .debug_macro   0x00000000       0x6d hand.o
+ .debug_macro   0x00000000      0x16d hand.o
+ .debug_macro   0x00000000       0x94 hand.o
+ .debug_macro   0x00000000       0x28 hand.o
+ .debug_macro   0x00000000       0x34 hand.o
+ .debug_line    0x00000000      0xa28 hand.o
+ .debug_str     0x00000000    0x6ceac hand.o
+ .comment       0x00000000       0x5a hand.o
+ .debug_frame   0x00000000       0x8c hand.o
+ .ARM.attributes
+                0x00000000       0x32 hand.o
+ COMMON         0x00000000        0xb hand.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .group         0x00000000        0x8 i2c.o
+ .text          0x00000000        0x0 i2c.o
+ .data          0x00000000        0x0 i2c.o
+ .bss           0x00000000        0x2 i2c.o
+ .text.i2c_begin_read
+                0x00000000       0x20 i2c.o
+ .text.i2c_tx_flag
+                0x00000000        0xc i2c.o
+ .text.i2c_rx_flag
+                0x00000000        0xc i2c.o
+ .text.i2c_rx_stop
+                0x00000000       0x18 i2c.o
+ .text.i2c_set_default
+                0x00000000       0x18 i2c.o
+ .text._i2c_failed_flag
+                0x00000000        0x4 i2c.o
+ .debug_macro   0x00000000      0x8a4 i2c.o
+ .debug_macro   0x00000000      0x16d i2c.o
+ .debug_macro   0x00000000       0x22 i2c.o
+ .debug_macro   0x00000000       0x87 i2c.o
+ .debug_macro   0x00000000       0x51 i2c.o
+ .debug_macro   0x00000000       0xef i2c.o
+ .debug_macro   0x00000000       0x6a i2c.o
+ .debug_macro   0x00000000      0x1df i2c.o
+ .debug_macro   0x00000000       0x3a i2c.o
+ .debug_macro   0x00000000       0x1f i2c.o
+ .debug_macro   0x00000000      0x250 i2c.o
+ .debug_macro   0x00000000      0x67e i2c.o
+ .debug_macro   0x00000000      0x8b1 i2c.o
+ .debug_macro   0x00000000      0x22e i2c.o
+ .debug_macro   0x00000000      0xd5c i2c.o
+ .debug_macro   0x00000000      0x4dc i2c.o
+ .debug_macro   0x00000000      0x9f6 i2c.o
+ .debug_macro   0x00000000      0x82b i2c.o
+ .debug_macro   0x00000000      0x45f i2c.o
+ .debug_macro   0x00000000       0x5e i2c.o
+ .debug_macro   0x00000000      0x8f9 i2c.o
+ .debug_macro   0x00000000      0x21c i2c.o
+ .debug_macro   0x00000000      0x735 i2c.o
+ .debug_macro   0x00000000       0x5e i2c.o
+ .debug_macro   0x00000000      0x632 i2c.o
+ .debug_macro   0x00000000      0x3ac i2c.o
+ .debug_macro   0x00000000      0xc76 i2c.o
+ .debug_macro   0x00000000     0x1092 i2c.o
+ .debug_macro   0x00000000      0xc4a i2c.o
+ .debug_macro   0x00000000      0x6ba i2c.o
+ .debug_macro   0x00000000     0x1b3d i2c.o
+ .debug_macro   0x00000000     0x143c i2c.o
+ .debug_macro   0x00000000      0x340 i2c.o
+ .debug_macro   0x00000000       0x7c i2c.o
+ .debug_macro   0x00000000       0xa0 i2c.o
+ .debug_macro   0x00000000       0x4c i2c.o
+ .debug_macro   0x00000000       0xca i2c.o
+ .debug_macro   0x00000000       0x94 i2c.o
+ .debug_macro   0x00000000       0x58 i2c.o
+ .debug_macro   0x00000000      0x341 i2c.o
+ .debug_macro   0x00000000       0x82 i2c.o
+ .debug_macro   0x00000000      0x189 i2c.o
+ .debug_macro   0x00000000       0xb8 i2c.o
+ .debug_macro   0x00000000       0xa0 i2c.o
+ .debug_macro   0x00000000       0xb2 i2c.o
+ .debug_macro   0x00000000       0x1c i2c.o
+ .debug_macro   0x00000000       0x1c i2c.o
+ .debug_macro   0x00000000       0x1c i2c.o
+ .debug_macro   0x00000000       0x7c i2c.o
+ .debug_macro   0x00000000      0x15a i2c.o
+ .debug_macro   0x00000000       0x10 i2c.o
+ .debug_macro   0x00000000       0xdc i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000      0x124 i2c.o
+ .debug_macro   0x00000000       0xe2 i2c.o
+ .debug_macro   0x00000000       0xe2 i2c.o
+ .debug_macro   0x00000000       0xe2 i2c.o
+ .debug_macro   0x00000000      0x12a i2c.o
+ .debug_macro   0x00000000      0x100 i2c.o
+ .debug_macro   0x00000000       0xf4 i2c.o
+ .debug_macro   0x00000000      0x40f i2c.o
+ .debug_macro   0x00000000       0x40 i2c.o
+ .debug_macro   0x00000000      0x376 i2c.o
+ .debug_macro   0x00000000     0x17df i2c.o
+ .debug_macro   0x00000000       0x6d i2c.o
+ .debug_macro   0x00000000       0x28 i2c.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .group         0x00000000        0x8 kx003.o
+ .text          0x00000000        0x0 kx003.o
+ .data          0x00000000        0x0 kx003.o
+ .bss           0x00000000        0x0 kx003.o
+ .text._kx003_read_callback
+                0x00000000       0xd4 kx003.o
+ .rodata        0x00000000       0x18 kx003.o
+ .text.kx003_read
+                0x00000000       0x68 kx003.o
+ .text.kx003_read_complete
+                0x00000000       0x14 kx003.o
+ .debug_macro   0x00000000      0x8a4 kx003.o
+ .debug_macro   0x00000000      0x16d kx003.o
+ .debug_macro   0x00000000       0x22 kx003.o
+ .debug_macro   0x00000000       0x87 kx003.o
+ .debug_macro   0x00000000       0x51 kx003.o
+ .debug_macro   0x00000000       0xef kx003.o
+ .debug_macro   0x00000000       0x6a kx003.o
+ .debug_macro   0x00000000      0x1df kx003.o
+ .debug_macro   0x00000000       0x3f kx003.o
+ .debug_macro   0x00000000       0x3a kx003.o
+ .debug_macro   0x00000000       0x1f kx003.o
+ .debug_macro   0x00000000      0x250 kx003.o
+ .debug_macro   0x00000000      0x67e kx003.o
+ .debug_macro   0x00000000      0x8b1 kx003.o
+ .debug_macro   0x00000000      0x22e kx003.o
+ .debug_macro   0x00000000      0xd5c kx003.o
+ .debug_macro   0x00000000      0x4dc kx003.o
+ .debug_macro   0x00000000      0x9f6 kx003.o
+ .debug_macro   0x00000000      0x82b kx003.o
+ .debug_macro   0x00000000      0x45f kx003.o
+ .debug_macro   0x00000000       0x5e kx003.o
+ .debug_macro   0x00000000      0x8f9 kx003.o
+ .debug_macro   0x00000000      0x21c kx003.o
+ .debug_macro   0x00000000      0x735 kx003.o
+ .debug_macro   0x00000000       0x5e kx003.o
+ .debug_macro   0x00000000      0x632 kx003.o
+ .debug_macro   0x00000000      0x3ac kx003.o
+ .debug_macro   0x00000000      0xc76 kx003.o
+ .debug_macro   0x00000000     0x1092 kx003.o
+ .debug_macro   0x00000000      0xc4a kx003.o
+ .debug_macro   0x00000000      0x6ba kx003.o
+ .debug_macro   0x00000000     0x1b3d kx003.o
+ .debug_macro   0x00000000     0x143c kx003.o
+ .debug_macro   0x00000000      0x340 kx003.o
+ .debug_macro   0x00000000       0x7c kx003.o
+ .debug_macro   0x00000000       0xa0 kx003.o
+ .debug_macro   0x00000000       0x4c kx003.o
+ .debug_macro   0x00000000       0xca kx003.o
+ .debug_macro   0x00000000       0x94 kx003.o
+ .debug_macro   0x00000000       0x58 kx003.o
+ .debug_macro   0x00000000      0x341 kx003.o
+ .debug_macro   0x00000000       0x82 kx003.o
+ .debug_macro   0x00000000      0x189 kx003.o
+ .debug_macro   0x00000000       0xb8 kx003.o
+ .debug_macro   0x00000000       0xa0 kx003.o
+ .debug_macro   0x00000000       0xb2 kx003.o
+ .debug_macro   0x00000000       0x1c kx003.o
+ .debug_macro   0x00000000       0x1c kx003.o
+ .debug_macro   0x00000000       0x1c kx003.o
+ .debug_macro   0x00000000       0x7c kx003.o
+ .debug_macro   0x00000000      0x15a kx003.o
+ .debug_macro   0x00000000       0x10 kx003.o
+ .debug_macro   0x00000000       0xdc kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000      0x124 kx003.o
+ .debug_macro   0x00000000       0xe2 kx003.o
+ .debug_macro   0x00000000       0xe2 kx003.o
+ .debug_macro   0x00000000       0xe2 kx003.o
+ .debug_macro   0x00000000      0x12a kx003.o
+ .debug_macro   0x00000000      0x100 kx003.o
+ .debug_macro   0x00000000       0xf4 kx003.o
+ .debug_macro   0x00000000      0x40f kx003.o
+ .debug_macro   0x00000000       0x40 kx003.o
+ .debug_macro   0x00000000      0x376 kx003.o
+ .debug_macro   0x00000000     0x17df kx003.o
+ .debug_macro   0x00000000       0x6d kx003.o
+ .debug_macro   0x00000000       0x34 kx003.o
+ .debug_macro   0x00000000       0x28 kx003.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .debug_macro   0x00000000      0x8a4 main.o
+ .debug_macro   0x00000000       0x22 main.o
+ .debug_macro   0x00000000       0x87 main.o
+ .debug_macro   0x00000000       0x51 main.o
+ .debug_macro   0x00000000       0xef main.o
+ .debug_macro   0x00000000       0x6a main.o
+ .debug_macro   0x00000000      0x1df main.o
+ .debug_macro   0x00000000       0x39 main.o
+ .debug_macro   0x00000000       0x3a main.o
+ .debug_macro   0x00000000       0x1f main.o
+ .debug_macro   0x00000000      0x250 main.o
+ .debug_macro   0x00000000      0x67e main.o
+ .debug_macro   0x00000000      0x8b1 main.o
+ .debug_macro   0x00000000      0x22e main.o
+ .debug_macro   0x00000000      0xd5c main.o
+ .debug_macro   0x00000000      0x4dc main.o
+ .debug_macro   0x00000000      0x9f6 main.o
+ .debug_macro   0x00000000      0x82b main.o
+ .debug_macro   0x00000000      0x45f main.o
+ .debug_macro   0x00000000       0x5e main.o
+ .debug_macro   0x00000000      0x8f9 main.o
+ .debug_macro   0x00000000      0x21c main.o
+ .debug_macro   0x00000000      0x735 main.o
+ .debug_macro   0x00000000       0x5e main.o
+ .debug_macro   0x00000000      0x632 main.o
+ .debug_macro   0x00000000      0x3ac main.o
+ .debug_macro   0x00000000      0xc76 main.o
+ .debug_macro   0x00000000     0x1092 main.o
+ .debug_macro   0x00000000      0xc4a main.o
+ .debug_macro   0x00000000      0x6ba main.o
+ .debug_macro   0x00000000     0x1b3d main.o
+ .debug_macro   0x00000000     0x143c main.o
+ .debug_macro   0x00000000      0x340 main.o
+ .debug_macro   0x00000000       0x7c main.o
+ .debug_macro   0x00000000       0xa0 main.o
+ .debug_macro   0x00000000       0x4c main.o
+ .debug_macro   0x00000000       0xca main.o
+ .debug_macro   0x00000000       0x94 main.o
+ .debug_macro   0x00000000       0x58 main.o
+ .debug_macro   0x00000000      0x341 main.o
+ .debug_macro   0x00000000       0x82 main.o
+ .debug_macro   0x00000000      0x189 main.o
+ .debug_macro   0x00000000       0xb8 main.o
+ .debug_macro   0x00000000       0xa0 main.o
+ .debug_macro   0x00000000       0xb2 main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x7c main.o
+ .debug_macro   0x00000000      0x15a main.o
+ .debug_macro   0x00000000       0x10 main.o
+ .debug_macro   0x00000000       0xdc main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000      0x124 main.o
+ .debug_macro   0x00000000       0xe2 main.o
+ .debug_macro   0x00000000       0xe2 main.o
+ .debug_macro   0x00000000       0xe2 main.o
+ .debug_macro   0x00000000      0x12a main.o
+ .debug_macro   0x00000000      0x100 main.o
+ .debug_macro   0x00000000       0xf4 main.o
+ .debug_macro   0x00000000      0x40f main.o
+ .debug_macro   0x00000000       0x40 main.o
+ .debug_macro   0x00000000      0x376 main.o
+ .debug_macro   0x00000000     0x17df main.o
+ .debug_macro   0x00000000       0x6d main.o
+ .debug_macro   0x00000000      0x16d main.o
+ .debug_macro   0x00000000       0x22 main.o
+ .debug_macro   0x00000000       0x28 main.o
+ .debug_macro   0x00000000       0x34 main.o
+ .debug_macro   0x00000000       0x94 main.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .group         0x00000000        0x8 i2c_mux.o
+ .text          0x00000000        0x0 i2c_mux.o
+ .data          0x00000000        0x0 i2c_mux.o
+ .bss           0x00000000        0x0 i2c_mux.o
+ .text._i2c_mux_callback
+                0x00000000       0x44 i2c_mux.o
+ .text.i2c_mux_write
+                0x00000000       0x3c i2c_mux.o
+ .text.i2c_mux_init
+                0x00000000       0x2c i2c_mux.o
+ .text.i2c_mux_write_complete
+                0x00000000       0x14 i2c_mux.o
+ .debug_info    0x00000000      0x239 i2c_mux.o
+ .debug_abbrev  0x00000000      0x125 i2c_mux.o
+ .debug_loc     0x00000000      0x11b i2c_mux.o
+ .debug_aranges
+                0x00000000       0x38 i2c_mux.o
+ .debug_ranges  0x00000000       0x28 i2c_mux.o
+ .debug_macro   0x00000000      0x327 i2c_mux.o
+ .debug_macro   0x00000000      0x8a4 i2c_mux.o
+ .debug_macro   0x00000000      0x16d i2c_mux.o
+ .debug_macro   0x00000000       0x22 i2c_mux.o
+ .debug_macro   0x00000000       0x87 i2c_mux.o
+ .debug_macro   0x00000000       0x51 i2c_mux.o
+ .debug_macro   0x00000000       0xef i2c_mux.o
+ .debug_macro   0x00000000       0x6a i2c_mux.o
+ .debug_macro   0x00000000      0x1df i2c_mux.o
+ .debug_macro   0x00000000       0x3f i2c_mux.o
+ .debug_macro   0x00000000       0x3a i2c_mux.o
+ .debug_macro   0x00000000       0x1f i2c_mux.o
+ .debug_macro   0x00000000      0x250 i2c_mux.o
+ .debug_macro   0x00000000      0x67e i2c_mux.o
+ .debug_macro   0x00000000      0x8b1 i2c_mux.o
+ .debug_macro   0x00000000      0x22e i2c_mux.o
+ .debug_macro   0x00000000      0xd5c i2c_mux.o
+ .debug_macro   0x00000000      0x4dc i2c_mux.o
+ .debug_macro   0x00000000      0x9f6 i2c_mux.o
+ .debug_macro   0x00000000      0x82b i2c_mux.o
+ .debug_macro   0x00000000      0x45f i2c_mux.o
+ .debug_macro   0x00000000       0x5e i2c_mux.o
+ .debug_macro   0x00000000      0x8f9 i2c_mux.o
+ .debug_macro   0x00000000      0x21c i2c_mux.o
+ .debug_macro   0x00000000      0x735 i2c_mux.o
+ .debug_macro   0x00000000       0x5e i2c_mux.o
+ .debug_macro   0x00000000      0x632 i2c_mux.o
+ .debug_macro   0x00000000      0x3ac i2c_mux.o
+ .debug_macro   0x00000000      0xc76 i2c_mux.o
+ .debug_macro   0x00000000     0x1092 i2c_mux.o
+ .debug_macro   0x00000000      0xc4a i2c_mux.o
+ .debug_macro   0x00000000      0x6ba i2c_mux.o
+ .debug_macro   0x00000000     0x1b3d i2c_mux.o
+ .debug_macro   0x00000000     0x143c i2c_mux.o
+ .debug_macro   0x00000000      0x340 i2c_mux.o
+ .debug_macro   0x00000000       0x7c i2c_mux.o
+ .debug_macro   0x00000000       0xa0 i2c_mux.o
+ .debug_macro   0x00000000       0x4c i2c_mux.o
+ .debug_macro   0x00000000       0xca i2c_mux.o
+ .debug_macro   0x00000000       0x94 i2c_mux.o
+ .debug_macro   0x00000000       0x58 i2c_mux.o
+ .debug_macro   0x00000000      0x341 i2c_mux.o
+ .debug_macro   0x00000000       0x82 i2c_mux.o
+ .debug_macro   0x00000000      0x189 i2c_mux.o
+ .debug_macro   0x00000000       0xb8 i2c_mux.o
+ .debug_macro   0x00000000       0xa0 i2c_mux.o
+ .debug_macro   0x00000000       0xb2 i2c_mux.o
+ .debug_macro   0x00000000       0x1c i2c_mux.o
+ .debug_macro   0x00000000       0x1c i2c_mux.o
+ .debug_macro   0x00000000       0x1c i2c_mux.o
+ .debug_macro   0x00000000       0x7c i2c_mux.o
+ .debug_macro   0x00000000      0x15a i2c_mux.o
+ .debug_macro   0x00000000       0x10 i2c_mux.o
+ .debug_macro   0x00000000       0xdc i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000      0x124 i2c_mux.o
+ .debug_macro   0x00000000       0xe2 i2c_mux.o
+ .debug_macro   0x00000000       0xe2 i2c_mux.o
+ .debug_macro   0x00000000       0xe2 i2c_mux.o
+ .debug_macro   0x00000000      0x12a i2c_mux.o
+ .debug_macro   0x00000000      0x100 i2c_mux.o
+ .debug_macro   0x00000000       0xf4 i2c_mux.o
+ .debug_macro   0x00000000      0x40f i2c_mux.o
+ .debug_macro   0x00000000       0x40 i2c_mux.o
+ .debug_macro   0x00000000      0x376 i2c_mux.o
+ .debug_macro   0x00000000     0x17df i2c_mux.o
+ .debug_macro   0x00000000       0x6d i2c_mux.o
+ .debug_macro   0x00000000       0x28 i2c_mux.o
+ .debug_line    0x00000000      0x71d i2c_mux.o
+ .debug_str     0x00000000    0x6ca0b i2c_mux.o
+ .comment       0x00000000       0x5a i2c_mux.o
+ .debug_frame   0x00000000       0x70 i2c_mux.o
+ .ARM.attributes
+                0x00000000       0x32 i2c_mux.o
+ COMMON         0x00000000        0x2 i2c_mux.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .group         0x00000000        0x8 serial.o
+ .text          0x00000000        0x0 serial.o
+ .data          0x00000000        0x0 serial.o
+ .text.serial_set_default
+                0x00000000       0x18 serial.o
+ .text.serial_set_default_rx
+                0x00000000       0x18 serial.o
+ .text.serial_set_default_tx
+                0x00000000       0x18 serial.o
+ .text._serial_tx_clear
+                0x00000000       0x10 serial.o
+ .debug_macro   0x00000000      0x8a4 serial.o
+ .debug_macro   0x00000000      0x16d serial.o
+ .debug_macro   0x00000000       0x22 serial.o
+ .debug_macro   0x00000000       0x87 serial.o
+ .debug_macro   0x00000000       0x51 serial.o
+ .debug_macro   0x00000000       0xef serial.o
+ .debug_macro   0x00000000       0x6a serial.o
+ .debug_macro   0x00000000      0x1df serial.o
+ .debug_macro   0x00000000       0x3f serial.o
+ .debug_macro   0x00000000       0x3a serial.o
+ .debug_macro   0x00000000       0x1f serial.o
+ .debug_macro   0x00000000      0x250 serial.o
+ .debug_macro   0x00000000      0x67e serial.o
+ .debug_macro   0x00000000      0x8b1 serial.o
+ .debug_macro   0x00000000      0x22e serial.o
+ .debug_macro   0x00000000      0xd5c serial.o
+ .debug_macro   0x00000000      0x4dc serial.o
+ .debug_macro   0x00000000      0x9f6 serial.o
+ .debug_macro   0x00000000      0x82b serial.o
+ .debug_macro   0x00000000      0x45f serial.o
+ .debug_macro   0x00000000       0x5e serial.o
+ .debug_macro   0x00000000      0x8f9 serial.o
+ .debug_macro   0x00000000      0x21c serial.o
+ .debug_macro   0x00000000      0x735 serial.o
+ .debug_macro   0x00000000       0x5e serial.o
+ .debug_macro   0x00000000      0x632 serial.o
+ .debug_macro   0x00000000      0x3ac serial.o
+ .debug_macro   0x00000000      0xc76 serial.o
+ .debug_macro   0x00000000     0x1092 serial.o
+ .debug_macro   0x00000000      0xc4a serial.o
+ .debug_macro   0x00000000      0x6ba serial.o
+ .debug_macro   0x00000000     0x1b3d serial.o
+ .debug_macro   0x00000000     0x143c serial.o
+ .debug_macro   0x00000000      0x340 serial.o
+ .debug_macro   0x00000000       0x7c serial.o
+ .debug_macro   0x00000000       0xa0 serial.o
+ .debug_macro   0x00000000       0x4c serial.o
+ .debug_macro   0x00000000       0xca serial.o
+ .debug_macro   0x00000000       0x94 serial.o
+ .debug_macro   0x00000000       0x58 serial.o
+ .debug_macro   0x00000000      0x341 serial.o
+ .debug_macro   0x00000000       0x82 serial.o
+ .debug_macro   0x00000000      0x189 serial.o
+ .debug_macro   0x00000000       0xb8 serial.o
+ .debug_macro   0x00000000       0xa0 serial.o
+ .debug_macro   0x00000000       0xb2 serial.o
+ .debug_macro   0x00000000       0x1c serial.o
+ .debug_macro   0x00000000       0x1c serial.o
+ .debug_macro   0x00000000       0x1c serial.o
+ .debug_macro   0x00000000       0x7c serial.o
+ .debug_macro   0x00000000      0x15a serial.o
+ .debug_macro   0x00000000       0x10 serial.o
+ .debug_macro   0x00000000       0xdc serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000      0x124 serial.o
+ .debug_macro   0x00000000       0xe2 serial.o
+ .debug_macro   0x00000000       0xe2 serial.o
+ .debug_macro   0x00000000       0xe2 serial.o
+ .debug_macro   0x00000000      0x12a serial.o
+ .debug_macro   0x00000000      0x100 serial.o
+ .debug_macro   0x00000000       0xf4 serial.o
+ .debug_macro   0x00000000      0x40f serial.o
+ .debug_macro   0x00000000       0x40 serial.o
+ .debug_macro   0x00000000      0x376 serial.o
+ .debug_macro   0x00000000     0x17df serial.o
+ .debug_macro   0x00000000       0x6d serial.o
+ .debug_macro   0x00000000       0x22 serial.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .group         0x00000000        0x8 servos.o
+ .text          0x00000000        0x0 servos.o
+ .data          0x00000000        0x0 servos.o
+ .bss           0x00000000        0x0 servos.o
+ .text._servos_byte_callback
+                0x00000000       0x5c servos.o
+ .text._servos_regs_callback
+                0x00000000       0xe0 servos.o
+ .text.servos_stop
+                0x00000000       0x54 servos.o
+ .text.servos_init
+                0x00000000       0xa0 servos.o
+ .text.servos_write
+                0x00000000       0x44 servos.o
+ .text.servos_write_complete
+                0x00000000       0x14 servos.o
+ .debug_info    0x00000000      0x3f3 servos.o
+ .debug_abbrev  0x00000000      0x13e servos.o
+ .debug_loc     0x00000000      0x25c servos.o
+ .debug_aranges
+                0x00000000       0x48 servos.o
+ .debug_ranges  0x00000000       0x38 servos.o
+ .debug_macro   0x00000000      0x39d servos.o
+ .debug_macro   0x00000000      0x8a4 servos.o
+ .debug_macro   0x00000000      0x16d servos.o
+ .debug_macro   0x00000000       0x22 servos.o
+ .debug_macro   0x00000000       0x87 servos.o
+ .debug_macro   0x00000000       0x51 servos.o
+ .debug_macro   0x00000000       0xef servos.o
+ .debug_macro   0x00000000       0x6a servos.o
+ .debug_macro   0x00000000      0x1df servos.o
+ .debug_macro   0x00000000       0x3f servos.o
+ .debug_macro   0x00000000       0x3a servos.o
+ .debug_macro   0x00000000       0x1f servos.o
+ .debug_macro   0x00000000      0x250 servos.o
+ .debug_macro   0x00000000      0x67e servos.o
+ .debug_macro   0x00000000      0x8b1 servos.o
+ .debug_macro   0x00000000      0x22e servos.o
+ .debug_macro   0x00000000      0xd5c servos.o
+ .debug_macro   0x00000000      0x4dc servos.o
+ .debug_macro   0x00000000      0x9f6 servos.o
+ .debug_macro   0x00000000      0x82b servos.o
+ .debug_macro   0x00000000      0x45f servos.o
+ .debug_macro   0x00000000       0x5e servos.o
+ .debug_macro   0x00000000      0x8f9 servos.o
+ .debug_macro   0x00000000      0x21c servos.o
+ .debug_macro   0x00000000      0x735 servos.o
+ .debug_macro   0x00000000       0x5e servos.o
+ .debug_macro   0x00000000      0x632 servos.o
+ .debug_macro   0x00000000      0x3ac servos.o
+ .debug_macro   0x00000000      0xc76 servos.o
+ .debug_macro   0x00000000     0x1092 servos.o
+ .debug_macro   0x00000000      0xc4a servos.o
+ .debug_macro   0x00000000      0x6ba servos.o
+ .debug_macro   0x00000000     0x1b3d servos.o
+ .debug_macro   0x00000000     0x143c servos.o
+ .debug_macro   0x00000000      0x340 servos.o
+ .debug_macro   0x00000000       0x7c servos.o
+ .debug_macro   0x00000000       0xa0 servos.o
+ .debug_macro   0x00000000       0x4c servos.o
+ .debug_macro   0x00000000       0xca servos.o
+ .debug_macro   0x00000000       0x94 servos.o
+ .debug_macro   0x00000000       0x58 servos.o
+ .debug_macro   0x00000000      0x341 servos.o
+ .debug_macro   0x00000000       0x82 servos.o
+ .debug_macro   0x00000000      0x189 servos.o
+ .debug_macro   0x00000000       0xb8 servos.o
+ .debug_macro   0x00000000       0xa0 servos.o
+ .debug_macro   0x00000000       0xb2 servos.o
+ .debug_macro   0x00000000       0x1c servos.o
+ .debug_macro   0x00000000       0x1c servos.o
+ .debug_macro   0x00000000       0x1c servos.o
+ .debug_macro   0x00000000       0x7c servos.o
+ .debug_macro   0x00000000      0x15a servos.o
+ .debug_macro   0x00000000       0x10 servos.o
+ .debug_macro   0x00000000       0xdc servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000      0x124 servos.o
+ .debug_macro   0x00000000       0xe2 servos.o
+ .debug_macro   0x00000000       0xe2 servos.o
+ .debug_macro   0x00000000       0xe2 servos.o
+ .debug_macro   0x00000000      0x12a servos.o
+ .debug_macro   0x00000000      0x100 servos.o
+ .debug_macro   0x00000000       0xf4 servos.o
+ .debug_macro   0x00000000      0x40f servos.o
+ .debug_macro   0x00000000       0x40 servos.o
+ .debug_macro   0x00000000      0x376 servos.o
+ .debug_macro   0x00000000     0x17df servos.o
+ .debug_macro   0x00000000       0x6d servos.o
+ .debug_macro   0x00000000       0x28 servos.o
+ .debug_line    0x00000000      0x7c0 servos.o
+ .debug_str     0x00000000    0x6cbbf servos.o
+ .comment       0x00000000       0x5a servos.o
+ .debug_frame   0x00000000       0xa4 servos.o
+ .ARM.attributes
+                0x00000000       0x32 servos.o
+ COMMON         0x00000000        0xa servos.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .group         0x00000000        0x8 timer.o
+ .text          0x00000000        0x0 timer.o
+ .data          0x00000000        0x0 timer.o
+ .bss           0x00000000        0x0 timer.o
+ .text.timer_get
+                0x00000000        0xc timer.o
+ .debug_macro   0x00000000      0x8a4 timer.o
+ .debug_macro   0x00000000       0x22 timer.o
+ .debug_macro   0x00000000       0x87 timer.o
+ .debug_macro   0x00000000       0x51 timer.o
+ .debug_macro   0x00000000       0xef timer.o
+ .debug_macro   0x00000000       0x6a timer.o
+ .debug_macro   0x00000000      0x1df timer.o
+ .debug_macro   0x00000000       0x3f timer.o
+ .debug_macro   0x00000000       0x3a timer.o
+ .debug_macro   0x00000000       0x1f timer.o
+ .debug_macro   0x00000000      0x250 timer.o
+ .debug_macro   0x00000000      0x67e timer.o
+ .debug_macro   0x00000000      0x8b1 timer.o
+ .debug_macro   0x00000000      0x22e timer.o
+ .debug_macro   0x00000000      0xd5c timer.o
+ .debug_macro   0x00000000      0x4dc timer.o
+ .debug_macro   0x00000000      0x9f6 timer.o
+ .debug_macro   0x00000000      0x82b timer.o
+ .debug_macro   0x00000000      0x45f timer.o
+ .debug_macro   0x00000000       0x5e timer.o
+ .debug_macro   0x00000000      0x8f9 timer.o
+ .debug_macro   0x00000000      0x21c timer.o
+ .debug_macro   0x00000000      0x735 timer.o
+ .debug_macro   0x00000000       0x5e timer.o
+ .debug_macro   0x00000000      0x632 timer.o
+ .debug_macro   0x00000000      0x3ac timer.o
+ .debug_macro   0x00000000      0xc76 timer.o
+ .debug_macro   0x00000000     0x1092 timer.o
+ .debug_macro   0x00000000      0xc4a timer.o
+ .debug_macro   0x00000000      0x6ba timer.o
+ .debug_macro   0x00000000     0x1b3d timer.o
+ .debug_macro   0x00000000     0x143c timer.o
+ .debug_macro   0x00000000      0x340 timer.o
+ .debug_macro   0x00000000       0x7c timer.o
+ .debug_macro   0x00000000       0xa0 timer.o
+ .debug_macro   0x00000000       0x4c timer.o
+ .debug_macro   0x00000000       0xca timer.o
+ .debug_macro   0x00000000       0x94 timer.o
+ .debug_macro   0x00000000       0x58 timer.o
+ .debug_macro   0x00000000      0x341 timer.o
+ .debug_macro   0x00000000       0x82 timer.o
+ .debug_macro   0x00000000      0x189 timer.o
+ .debug_macro   0x00000000       0xb8 timer.o
+ .debug_macro   0x00000000       0xa0 timer.o
+ .debug_macro   0x00000000       0xb2 timer.o
+ .debug_macro   0x00000000       0x1c timer.o
+ .debug_macro   0x00000000       0x1c timer.o
+ .debug_macro   0x00000000       0x1c timer.o
+ .debug_macro   0x00000000       0x7c timer.o
+ .debug_macro   0x00000000      0x15a timer.o
+ .debug_macro   0x00000000       0x10 timer.o
+ .debug_macro   0x00000000       0xdc timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000      0x124 timer.o
+ .debug_macro   0x00000000       0xe2 timer.o
+ .debug_macro   0x00000000       0xe2 timer.o
+ .debug_macro   0x00000000       0xe2 timer.o
+ .debug_macro   0x00000000      0x12a timer.o
+ .debug_macro   0x00000000      0x100 timer.o
+ .debug_macro   0x00000000       0xf4 timer.o
+ .debug_macro   0x00000000      0x40f timer.o
+ .debug_macro   0x00000000       0x40 timer.o
+ .debug_macro   0x00000000      0x376 timer.o
+ .debug_macro   0x00000000     0x17df timer.o
+ .debug_macro   0x00000000       0x6d timer.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x94 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000      0x110 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xr
+ram              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+LOAD Device_Startup/startup_samd21.o
+LOAD Device_Startup/system_samd21.o
+LOAD hand.o
+LOAD i2c.o
+LOAD kx003.o
+LOAD main.o
+LOAD i2c_mux.o
+LOAD serial.o
+LOAD servos.o
+LOAD timer.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a
+END GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x00002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
+
+.text           0x00000000     0x1e38
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x00000000       0xb4 Device_Startup/startup_samd21.o
+                0x00000000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000000b4       0x60 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .text.Dummy_Handler
+                0x00000114        0x2 Device_Startup/startup_samd21.o
+                0x00000114                SVCall_Handler
+                0x00000114                DMAC_Handler
+                0x00000114                HardFault_Handler
+                0x00000114                AC_Handler
+                0x00000114                PendSV_Handler
+                0x00000114                SERCOM1_Handler
+                0x00000114                ADC_Handler
+                0x00000114                NonMaskableInt_Handler
+                0x00000114                TCC1_Handler
+                0x00000114                SERCOM2_Handler
+                0x00000114                TCC0_Handler
+                0x00000114                RTC_Handler
+                0x00000114                EIC_Handler
+                0x00000114                WDT_Handler
+                0x00000114                TC4_Handler
+                0x00000114                USB_Handler
+                0x00000114                TC3_Handler
+                0x00000114                Dummy_Handler
+                0x00000114                PM_Handler
+                0x00000114                TCC2_Handler
+                0x00000114                EVSYS_Handler
+                0x00000114                SERCOM3_Handler
+                0x00000114                SERCOM4_Handler
+                0x00000114                I2S_Handler
+                0x00000114                NVMCTRL_Handler
+                0x00000114                SERCOM0_Handler
+                0x00000114                DAC_Handler
+                0x00000114                PTC_Handler
+                0x00000114                TC5_Handler
+                0x00000114                SYSCTRL_Handler
+ *fill*         0x00000116        0x2 
+ .text.Reset_Handler
+                0x00000118       0xe4 Device_Startup/startup_samd21.o
+                0x00000118                Reset_Handler
+ .text.SystemInit
+                0x000001fc      0x1a0 Device_Startup/system_samd21.o
+                0x000001fc                SystemInit
+ .text.i2c_init
+                0x0000039c       0x3c i2c.o
+                0x0000039c                i2c_init
+ .text.i2c_begin_write
+                0x000003d8       0x20 i2c.o
+                0x000003d8                i2c_begin_write
+ .text.i2c_read
+                0x000003f8       0x24 i2c.o
+                0x000003f8                i2c_read
+ .text._i2c_default_func
+                0x0000041c       0x28 i2c.o
+                0x0000041c                _i2c_default_func
+ .text.i2c_write
+                0x00000444       0x20 i2c.o
+                0x00000444                i2c_write
+ .text.i2c_unregister
+                0x00000464       0x28 i2c.o
+                0x00000464                i2c_unregister
+ .text._SERCOM3_Handler
+                0x0000048c       0x6c i2c.o
+                0x0000048c                _SERCOM3_Handler
+ .text.i2c_tx_stop
+                0x000004f8       0x18 i2c.o
+                0x000004f8                i2c_tx_stop
+ .text.i2c_registered
+                0x00000510       0x1c i2c.o
+                0x00000510                i2c_registered
+ .text.i2c_register
+                0x0000052c       0x38 i2c.o
+                0x0000052c                i2c_register
+ .text._kx003_init_callback
+                0x00000564       0x4c kx003.o
+                0x00000564                _kx003_init_callback
+ .text._kx003_stop_callback
+                0x000005b0       0x4c kx003.o
+                0x000005b0                _kx003_stop_callback
+ .text.kx003_stop
+                0x000005fc       0x4c kx003.o
+                0x000005fc                kx003_stop
+ .text.kx003_init
+                0x00000648       0x54 kx003.o
+                0x00000648                kx003_init
+ .text.main     0x0000069c       0x54 main.o
+                0x0000069c                main
+ .text._serial_default_tx
+                0x000006f0        0x4 serial.o
+                0x000006f0                _serial_default_tx
+ .text._serial_default_rx
+                0x000006f4        0xc serial.o
+                0x000006f4                _serial_default_rx
+ .text.serial_init
+                0x00000700      0x198 serial.o
+                0x00000700                serial_init
+ .text.serial_tx_flag
+                0x00000898       0x10 serial.o
+                0x00000898                serial_tx_flag
+ .text.serial_rx_flag
+                0x000008a8       0x10 serial.o
+                0x000008a8                serial_rx_flag
+ .text.serial_read
+                0x000008b8        0xc serial.o
+                0x000008b8                serial_read
+ .text.serial_write
+                0x000008c4       0x1c serial.o
+                0x000008c4                serial_write
+ .text.serial_unregister_rx
+                0x000008e0       0x18 serial.o
+                0x000008e0                serial_unregister_rx
+ .text.serial_unregister_tx
+                0x000008f8       0x18 serial.o
+                0x000008f8                serial_unregister_tx
+ .text.serial_unregister
+                0x00000910       0x1c serial.o
+                0x00000910                serial_unregister
+ .text._serial_rx_registered
+                0x0000092c       0x14 serial.o
+                0x0000092c                _serial_rx_registered
+ .text.serial_register_rx
+                0x00000940       0x20 serial.o
+                0x00000940                serial_register_rx
+ .text._serial_tx_registered
+                0x00000960       0x14 serial.o
+                0x00000960                _serial_tx_registered
+ .text.serial_register_tx
+                0x00000974       0x20 serial.o
+                0x00000974                serial_register_tx
+ .text.serial_register
+                0x00000994       0x60 serial.o
+                0x00000994                serial_register
+ .text.SERCOM5_Handler
+                0x000009f4       0x48 serial.o
+                0x000009f4                SERCOM5_Handler
+ .text.timer_init
+                0x00000a3c       0x3c timer.o
+                0x00000a3c                timer_init
+ .text.timer_delay
+                0x00000a78       0x24 timer.o
+                0x00000a78                timer_delay
+ .text.SysTick_Handler
+                0x00000a9c       0x1c timer.o
+                0x00000a9c                SysTick_Handler
+ .text          0x00000ab8      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x00000ab8                __aeabi_uidiv
+                0x00000ab8                __udivsi3
+                0x00000bc4                __aeabi_uidivmod
+ .text          0x00000bcc        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00000bcc                __aeabi_idiv0
+                0x00000bcc                __aeabi_ldiv0
+ .text          0x00000bd0       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o)
+                0x00000bd0                __aeabi_d2uiz
+                0x00000bd0                __fixunsdfsi
+ .text          0x00000c0c      0x668 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+                0x00000c0c                __aeabi_ddiv
+ .text          0x00001274      0x62c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+                0x00001274                __aeabi_dsub
+ .text          0x000018a0       0x68 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+                0x000018a0                __aeabi_d2iz
+ .text          0x00001908       0x70 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+                0x00001908                __aeabi_ui2d
+ .text          0x00001978       0x7c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
+                0x00001978                __aeabi_cdrcmple
+                0x00001988                __aeabi_cdcmple
+                0x00001988                __aeabi_cdcmpeq
+                0x00001998                __aeabi_dcmpeq
+                0x000019a4                __aeabi_dcmplt
+                0x000019b8                __aeabi_dcmple
+                0x000019cc                __aeabi_dcmpgt
+                0x000019e0                __aeabi_dcmpge
+ .text          0x000019f4       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                0x000019f4                __clzsi2
+ .text          0x00001a30       0x74 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+                0x00001a30                __nedf2
+                0x00001a30                __eqdf2
+ .text          0x00001aa4       0xc8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+                0x00001aa4                __gedf2
+                0x00001aa4                __gtdf2
+ .text          0x00001b6c       0xc4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+                0x00001b6c                __ledf2
+                0x00001b6c                __ltdf2
+ .text.__libc_init_array
+                0x00001c30       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+                0x00001c30                __libc_init_array
+ .text.startup.register_fini
+                0x00001c78       0x18 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x00001c90       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+                0x00001c90                atexit
+ .text.__libc_fini_array
+                0x00001ca0       0x34 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+                0x00001ca0                __libc_fini_array
+ .text.__retarget_lock_acquire_recursive
+                0x00001cd4        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+                0x00001cd4                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00001cd8        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+                0x00001cd8                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x00001cdc       0xf4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
+                0x00001cdc                __register_exitproc
+ *(.glue_7t)
+ .glue_7t       0x00001dd0        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00001dd0        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata        0x00001dd0       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .rodata._global_impure_ptr
+                0x00001e10        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+                0x00001e10                _global_impure_ptr
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001e14                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00001e14        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x00001e14                _init
+ .init          0x00001e18        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x00001e20                . = ALIGN (0x4)
+                0x00001e20                __preinit_array_start = .
+ *(.preinit_array)
+                0x00001e20                __preinit_array_end = .
+                0x00001e20                . = ALIGN (0x4)
+                0x00001e20                __init_array_start = .
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x00001e20        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x00001e24        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+                0x00001e28                __init_array_end = .
+                0x00001e28                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x00001e28                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00001e28        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x00001e28                _fini
+ .fini          0x00001e2c        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x00001e34                . = ALIGN (0x4)
+                0x00001e34                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00001e34        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00001e38                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x00001e38                . = ALIGN (0x4)
+                0x00001e38                _efixed = .
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.vfp11_veneer   0x00001e38        0x0
+ .vfp11_veneer  0x00001e38        0x0 linker stubs
+
+.v4_bx          0x00001e38        0x0
+ .v4_bx         0x00001e38        0x0 linker stubs
+
+.iplt           0x00001e38        0x0
+ .iplt          0x00001e38        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.eh_frame       0x00001e38        0x0
+ .eh_frame      0x00001e38        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.rel.dyn        0x00001e38        0x0
+ .rel.iplt      0x00001e38        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.jcr            0x00001e38        0x0
+ .jcr           0x00001e38        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.igot.plt       0x00001e38        0x0
+ .igot.plt      0x00001e38        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                PROVIDE (__exidx_end, .)
+                0x00001e38                . = ALIGN (0x4)
+                0x00001e38                _etext = .
+
+.relocate       0x20000000      0x434 load address 0x00001e38
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data          0x20000000        0x4 Device_Startup/system_samd21.o
+                0x20000000                SystemCoreClock
+ *fill*         0x20000004        0x4 
+ .data.impure_data
+                0x20000008      0x428 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x20000430        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+                0x20000430                __atexit_recursive_mutex
+                0x20000434                . = ALIGN (0x4)
+                0x20000434                _erelocate = .
+
+.bss            0x20000438       0x7c load address 0x00002270
+                0x20000438                . = ALIGN (0x4)
+                0x20000438                _sbss = .
+                0x20000438                _szero = .
+ *(.bss .bss.*)
+ .bss           0x20000438       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .bss           0x20000454       0x10 serial.o
+                0x20000454                _serial_default
+                0x2000045c                _serial_callback
+ *(COMMON)
+ COMMON         0x20000464       0x18 i2c.o
+                0x20000464                I2C_callback
+                0x2000046c                _i2c_addr
+                0x2000046d                _i2c_mode
+                0x2000046e                _i2c_flag
+                0x20000470                _i2c_default
+                0x20000474                _i2c_init
+                0x20000478                _i2c_callback
+ COMMON         0x2000047c        0xa kx003.o
+                0x2000047c                _kx003_reg
+                0x2000047d                _kx003_idx
+                0x2000047e                _kx003_bytes
+                0x20000480                _kx003_dest
+                0x20000484                _kx003_mode
+                0x20000485                _kx003_addr
+ *fill*         0x20000486        0x2 
+ COMMON         0x20000488        0x8 timer.o
+                0x20000488                millis
+ COMMON         0x20000490       0x21 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+                0x20000490                __lock___atexit_recursive_mutex
+                0x20000494                __lock___arc4random_mutex
+                0x20000498                __lock___env_recursive_mutex
+                0x2000049c                __lock___sinit_recursive_mutex
+                0x200004a0                __lock___malloc_recursive_mutex
+                0x200004a4                __lock___at_quick_exit_mutex
+                0x200004a8                __lock___dd_hash_mutex
+                0x200004ac                __lock___tz_mutex
+                0x200004b0                __lock___sfp_recursive_mutex
+                0x200004b4                . = ALIGN (0x4)
+ *fill*         0x200004b1        0x3 
+                0x200004b4                _ebss = .
+                0x200004b4                _ezero = .
+
+.stack          0x200004b4     0x2004 load address 0x000022ec
+                0x200004b8                . = ALIGN (0x8)
+ *fill*         0x200004b4        0x4 
+                0x200004b8                _sstack = .
+                0x200024b8                . = (. + STACK_SIZE)
+ *fill*         0x200004b8     0x2000 
+                0x200024b8                . = ALIGN (0x8)
+                0x200024b8                _estack = .
+                0x200024b8                . = ALIGN (0x4)
+                0x200024b8                _end = .
+OUTPUT(I2C_com.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x32 Device_Startup/startup_samd21.o
+ .ARM.attributes
+                0x0000007c       0x32 Device_Startup/system_samd21.o
+ .ARM.attributes
+                0x000000ae       0x32 i2c.o
+ .ARM.attributes
+                0x000000e0       0x32 kx003.o
+ .ARM.attributes
+                0x00000112       0x32 main.o
+ .ARM.attributes
+                0x00000144       0x32 serial.o
+ .ARM.attributes
+                0x00000176       0x32 timer.o
+ .ARM.attributes
+                0x000001a8       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000001c6       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000001e4       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000210       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x0000023c       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000268       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x00000294       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x000002c0       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000002de       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x000002fc       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x00000328       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000354       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000380       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000003ac       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003d8       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000404       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000430       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000045c       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000488       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000004b4       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+
+.comment        0x00000000       0x59
+ .comment       0x00000000       0x59 Device_Startup/startup_samd21.o
+                                 0x5a (size before relaxing)
+ .comment       0x00000059       0x5a Device_Startup/system_samd21.o
+ .comment       0x00000059       0x5a i2c.o
+ .comment       0x00000059       0x5a kx003.o
+ .comment       0x00000059       0x5a main.o
+ .comment       0x00000059       0x5a serial.o
+ .comment       0x00000059       0x5a timer.o
+
+.debug_info     0x00000000     0xabeb
+ .debug_info    0x00000000     0x3a28 Device_Startup/startup_samd21.o
+ .debug_info    0x00003a28     0x2b02 Device_Startup/system_samd21.o
+ .debug_info    0x0000652a      0x547 i2c.o
+ .debug_info    0x00006a71      0x479 kx003.o
+ .debug_info    0x00006eea      0x1ce main.o
+ .debug_info    0x000070b8     0x367f serial.o
+ .debug_info    0x0000a737      0x4b4 timer.o
+
+.debug_abbrev   0x00000000      0xd43
+ .debug_abbrev  0x00000000      0x234 Device_Startup/startup_samd21.o
+ .debug_abbrev  0x00000234      0x184 Device_Startup/system_samd21.o
+ .debug_abbrev  0x000003b8      0x1ec i2c.o
+ .debug_abbrev  0x000005a4      0x167 kx003.o
+ .debug_abbrev  0x0000070b       0xdd main.o
+ .debug_abbrev  0x000007e8      0x39f serial.o
+ .debug_abbrev  0x00000b87      0x1bc timer.o
+
+.debug_loc      0x00000000      0x9f7
+ .debug_loc     0x00000000       0x40 Device_Startup/startup_samd21.o
+ .debug_loc     0x00000040       0x88 Device_Startup/system_samd21.o
+ .debug_loc     0x000000c8      0x29b i2c.o
+ .debug_loc     0x00000363      0x2a3 kx003.o
+ .debug_loc     0x00000606       0x20 main.o
+ .debug_loc     0x00000626      0x33a serial.o
+ .debug_loc     0x00000960       0x97 timer.o
+
+.debug_aranges  0x00000000      0x248
+ .debug_aranges
+                0x00000000       0x28 Device_Startup/startup_samd21.o
+ .debug_aranges
+                0x00000028       0x28 Device_Startup/system_samd21.o
+ .debug_aranges
+                0x00000050       0x98 i2c.o
+ .debug_aranges
+                0x000000e8       0x50 kx003.o
+ .debug_aranges
+                0x00000138       0x20 main.o
+ .debug_aranges
+                0x00000158       0xb8 serial.o
+ .debug_aranges
+                0x00000210       0x38 timer.o
+
+.debug_ranges   0x00000000      0x1d8
+ .debug_ranges  0x00000000       0x18 Device_Startup/startup_samd21.o
+ .debug_ranges  0x00000018       0x18 Device_Startup/system_samd21.o
+ .debug_ranges  0x00000030       0x88 i2c.o
+ .debug_ranges  0x000000b8       0x40 kx003.o
+ .debug_ranges  0x000000f8       0x10 main.o
+ .debug_ranges  0x00000108       0xa8 serial.o
+ .debug_ranges  0x000001b0       0x28 timer.o
+
+.debug_macro    0x00000000    0x11baa
+ .debug_macro   0x00000000      0x2ef Device_Startup/startup_samd21.o
+ .debug_macro   0x000002ef      0x8a4 Device_Startup/startup_samd21.o
+ .debug_macro   0x00000b93       0x22 Device_Startup/startup_samd21.o
+ .debug_macro   0x00000bb5       0x87 Device_Startup/startup_samd21.o
+ .debug_macro   0x00000c3c       0x51 Device_Startup/startup_samd21.o
+ .debug_macro   0x00000c8d       0xef Device_Startup/startup_samd21.o
+ .debug_macro   0x00000d7c       0x6a Device_Startup/startup_samd21.o
+ .debug_macro   0x00000de6      0x1df Device_Startup/startup_samd21.o
+ .debug_macro   0x00000fc5       0x39 Device_Startup/startup_samd21.o
+ .debug_macro   0x00000ffe       0x3a Device_Startup/startup_samd21.o
+ .debug_macro   0x00001038       0x1f Device_Startup/startup_samd21.o
+ .debug_macro   0x00001057      0x250 Device_Startup/startup_samd21.o
+ .debug_macro   0x000012a7      0x67e Device_Startup/startup_samd21.o
+ .debug_macro   0x00001925      0x8b1 Device_Startup/startup_samd21.o
+ .debug_macro   0x000021d6      0x22e Device_Startup/startup_samd21.o
+ .debug_macro   0x00002404      0xd5c Device_Startup/startup_samd21.o
+ .debug_macro   0x00003160      0x4dc Device_Startup/startup_samd21.o
+ .debug_macro   0x0000363c      0x9f6 Device_Startup/startup_samd21.o
+ .debug_macro   0x00004032      0x82b Device_Startup/startup_samd21.o
+ .debug_macro   0x0000485d      0x45f Device_Startup/startup_samd21.o
+ .debug_macro   0x00004cbc       0x5e Device_Startup/startup_samd21.o
+ .debug_macro   0x00004d1a      0x8f9 Device_Startup/startup_samd21.o
+ .debug_macro   0x00005613      0x21c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000582f      0x735 Device_Startup/startup_samd21.o
+ .debug_macro   0x00005f64       0x5e Device_Startup/startup_samd21.o
+ .debug_macro   0x00005fc2      0x632 Device_Startup/startup_samd21.o
+ .debug_macro   0x000065f4      0x3ac Device_Startup/startup_samd21.o
+ .debug_macro   0x000069a0      0xc76 Device_Startup/startup_samd21.o
+ .debug_macro   0x00007616     0x1092 Device_Startup/startup_samd21.o
+ .debug_macro   0x000086a8      0xc4a Device_Startup/startup_samd21.o
+ .debug_macro   0x000092f2      0x6ba Device_Startup/startup_samd21.o
+ .debug_macro   0x000099ac     0x1b3d Device_Startup/startup_samd21.o
+ .debug_macro   0x0000b4e9     0x143c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000c925      0x340 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000cc65       0x7c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000cce1       0xa0 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000cd81       0x4c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000cdcd       0xca Device_Startup/startup_samd21.o
+ .debug_macro   0x0000ce97       0x94 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000cf2b       0x58 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000cf83      0x341 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d2c4       0x82 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d346      0x189 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d4cf       0xb8 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d587       0xa0 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d627       0xb2 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d6d9       0x1c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d6f5       0x1c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d711       0x1c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d72d       0x7c Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d7a9      0x15a Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d903       0x10 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d913       0xdc Device_Startup/startup_samd21.o
+ .debug_macro   0x0000d9ef      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000db13      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000dc37      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000dd5b      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000de7f      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000dfa3      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e0c7      0x124 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e1eb       0xe2 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e2cd       0xe2 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e3af       0xe2 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e491      0x12a Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e5bb      0x100 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e6bb       0xf4 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000e7af      0x40f Device_Startup/startup_samd21.o
+ .debug_macro   0x0000ebbe       0x40 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000ebfe      0x376 Device_Startup/startup_samd21.o
+ .debug_macro   0x0000ef74     0x17df Device_Startup/startup_samd21.o
+ .debug_macro   0x00010753       0x6d Device_Startup/startup_samd21.o
+ .debug_macro   0x000107c0      0x31f Device_Startup/system_samd21.o
+ .debug_macro   0x00010adf      0x368 i2c.o
+ .debug_macro   0x00010e47       0x3f i2c.o
+ .debug_macro   0x00010e86       0x22 i2c.o
+ .debug_macro   0x00010ea8      0x368 kx003.o
+ .debug_macro   0x00011210      0x376 main.o
+ .debug_macro   0x00011586      0x331 serial.o
+ .debug_macro   0x000118b7      0x2f3 timer.o
+
+.debug_line     0x00000000     0x34b8
+ .debug_line    0x00000000      0x6df Device_Startup/startup_samd21.o
+ .debug_line    0x000006df      0x762 Device_Startup/system_samd21.o
+ .debug_line    0x00000e41      0x808 i2c.o
+ .debug_line    0x00001649      0x7ca kx003.o
+ .debug_line    0x00001e13      0x708 main.o
+ .debug_line    0x0000251b      0x8a2 serial.o
+ .debug_line    0x00002dbd      0x6fb timer.o
+
+.debug_str      0x00000000    0x6f44a
+ .debug_str     0x00000000    0x6d354 Device_Startup/startup_samd21.o
+                              0x6d77b (size before relaxing)
+ .debug_str     0x0006d354      0xa5b Device_Startup/system_samd21.o
+                              0x6d20f (size before relaxing)
+ .debug_str     0x0006ddaf      0x687 i2c.o
+                              0x6ccb8 (size before relaxing)
+ .debug_str     0x0006e436      0x27d kx003.o
+                              0x6cc0a (size before relaxing)
+ .debug_str     0x0006e6b3      0x235 main.o
+                              0x6cc73 (size before relaxing)
+ .debug_str     0x0006e8e8      0xb11 serial.o
+                              0x6d8e0 (size before relaxing)
+ .debug_str     0x0006f3f9       0x51 timer.o
+                              0x6c84f (size before relaxing)
+
+.debug_frame    0x00000000      0x858
+ .debug_frame   0x00000000       0x40 Device_Startup/startup_samd21.o
+ .debug_frame   0x00000040       0x30 Device_Startup/system_samd21.o
+ .debug_frame   0x00000070      0x178 i2c.o
+ .debug_frame   0x000001e8       0xc0 kx003.o
+ .debug_frame   0x000002a8       0x2c main.o
+ .debug_frame   0x000002d4      0x1a0 serial.o
+ .debug_frame   0x00000474       0x68 timer.o
+ .debug_frame   0x000004dc       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000004fc       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x00000528       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x00000564       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x0000059c       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000005c8       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+ .debug_frame   0x000005f0       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x00000628       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x00000660       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x00000698       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+ .debug_frame   0x000006c4       0x54 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000718       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000740       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-fini.o)
+ .debug_frame   0x0000076c       0xb0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-lock.o)
+ .debug_frame   0x0000081c       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-__atexit.o)
