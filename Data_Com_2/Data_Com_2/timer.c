@@ -26,21 +26,21 @@ volatile uint64_t millis;
 //==============================================================================
 void timer_init()
 {
-	SysTick_Config(48000);
-	millis = 0;
+    SysTick_Config(48000);
+    millis = 0;
 }
-
 
 //==============================================================================
 uint64_t timer_get()
 {
-	return millis;
+    return millis;
 }
 
+//==============================================================================
 void timer_delay(uint32_t delay)
 {
-	uint64_t start = millis;
-	while (millis - start < delay);
+    uint64_t start = millis;
+    while (millis - start < delay);
 }
 
 //------------------------------------------------------------------------------
@@ -53,5 +53,5 @@ void timer_delay(uint32_t delay)
 //==============================================================================
 void SysTick_Handler()
 {
-	millis++;
+    millis++;
 }

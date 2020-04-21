@@ -5,8 +5,8 @@
 //
 //------------------------------------------------------------------------------
 
-#include "emg.h"
-#include "adc.h"
+#include "i2c_mux.h"
+#include "i2c.h"
 
 //------------------------------------------------------------------------------
 //      __   ___  ___         ___  __
@@ -15,22 +15,9 @@
 //
 //------------------------------------------------------------------------------
 
-#define CHANEL_1_PORT (PORT_PA02)
-#define CHANEL_1_GROUP (0)
-#define CHANEL_1_PIN (PIN_PA02 % 32)
-#define CHANEL_1_ADC_PIN (0)
-
-#define CHANEL_2_PORT (PORT_PB08)
-#define CHANEL_2_GROUP (0)
-#define CHANEL_2_PIN (PIN_PB08 % 32)
-#define CHANEL_2_ADC_PIN (1)
-
-#define CHANEL_3_PORT (PORT_PA03)
-#define CHANEL_3_GROUP (0)
-#define CHANEL_3_PIN (PIN_PA03 % 32)
-#define CHANEL_3_ADC_PIN (2)
-
-#define EMG_NUM_PINS (3)
+#define I2C_MUX_DATA (0)
+#define I2C_MUX_STOP (1)
+#define I2C_MUX_DONE (2)
 
 //------------------------------------------------------------------------------
 //     ___      __   ___  __   ___  ___  __
@@ -46,10 +33,8 @@
 //
 //------------------------------------------------------------------------------
 
-emg_data_t* _emg_data;
-uint8_t _emg_channel_active[3];
-uint8_t _emg_channel_pins[] = {CHANEL_1_PIN, CHANEL_2_PIN, CHANEL_3_PIN};
-volatile uint8_t _emg_idx;
+uint8_t _i2c_mux_data;
+uint8_t _i2c_mux_state;
 
 //------------------------------------------------------------------------------
 //      __   __   __  ___  __  ___      __   ___  __
@@ -58,7 +43,7 @@ volatile uint8_t _emg_idx;
 //
 //------------------------------------------------------------------------------
 
-uint8_t _emg_callback(uint16_t data);
+uint8_t _i2c_mux_callback();
 
 //------------------------------------------------------------------------------
 //      __        __          __
@@ -68,48 +53,26 @@ uint8_t _emg_callback(uint16_t data);
 //------------------------------------------------------------------------------
 
 //==============================================================================
-void emg_setup(uint8_t channel1, uint8_t channel2, uint8_t channel3) {
-    // Save which channels are active
-    _emg_channel_active[CHANEL_1_ADC_PIN] = channel1;
-    _emg_channel_active[CHANEL_2_ADC_PIN] = channel2;
-    _emg_channel_active[CHANEL_3_ADC_PIN] = channel3;
-
-    // Enable channel 1 as input
-    PORT->Group[CHANEL_1_GROUP].PINCFG[CHANEL_1_PIN].bit.INEN = 1;
-    PORT->Group[CHANEL_1_GROUP].DIRCLR.reg = CHANEL_1_PORT;
-
-    // Enable channel 1 as input
-    PORT->Group[CHANEL_1_GROUP].PINCFG[CHANEL_1_PIN].bit.INEN = 1;
-    PORT->Group[CHANEL_1_GROUP].DIRCLR.reg = CHANEL_1_PORT;
-
-    // Enable channel 1 as input
-    PORT->Group[CHANEL_1_GROUP].PINCFG[CHANEL_1_PIN].bit.INEN = 1;
-    PORT->Group[CHANEL_1_GROUP].DIRCLR.reg = CHANEL_1_PORT;
-
-    // Reset the index
-    _emg_idx = 0;
-}
-
-//==============================================================================
-void emg_stop() {
-    _emg_idx = 0;
-}
-
-//==============================================================================
-uint8_t emg_sample(emg_data_t* output)
+void i2c_mux_init(uint8_t addr, uint8_t data)
 {
-    if (adc_register(_emg_callback)) {
-        _emg_data = output;
-        _emg_idx = 0;
-        adc_read(_emg_channel_pins[_emg_idx]);
+    while (i2c_registered());
+    while (!i2c_mux_write(addr, data));
+    while (i2c_registered());
+}
+
+//==============================================================================
+uint8_t i2c_mux_write(uint8_t addr, uint8_t data) {
+    if (i2c_register(_i2c_mux_callback)) {
+        _i2c_mux_data = data;
+        _i2c_mux_state = I2C_MUX_DATA;
+        i2c_begin_write(addr);
         return 1;
     }
     return 0;
 }
 
-//==============================================================================
-uint8_t emg_sample_complete() {
-    return _emg_idx == EMG_NUM_PINS;
+uint8_t i2c_mux_write_complete() {
+    return (_i2c_mux_state == I2C_MUX_DONE);
 }
 
 //------------------------------------------------------------------------------
@@ -126,31 +89,30 @@ uint8_t emg_sample_complete() {
 //
 //------------------------------------------------------------------------------
 
-//==============================================================================
-uint8_t _emg_callback(uint16_t data) {
-    // Store the value if the channel is active
-    if (_emg_channel_active[_emg_idx]) {
-        _emg_data->data[_emg_idx++] = data;
-    }
+uint8_t _i2c_mux_callback() {
+    uint8_t complete = 0;
 
-    // Store 0 if the channel inactive
-    else {
-        _emg_data->data[_emg_idx++] = 0;
-    }
+    switch (_i2c_mux_state) {
+        case I2C_MUX_DATA: {
+            if (!i2c_tx_flag()) break;
+            _i2c_mux_state = I2C_MUX_STOP;
+            i2c_write(_i2c_mux_data);
+        } break;
 
-    // Start the next adc read if appropriate
-    if (_emg_idx < EMG_NUM_PINS) {
-        adc_read(_emg_channel_pins[_emg_idx]);
-        return 0;
-    }
+        case I2C_MUX_STOP: {
+            if (!i2c_tx_flag()) break;
+            _i2c_mux_state = I2C_MUX_DONE;
+            complete = 1;
+            i2c_tx_stop();
+        } break;
+    } // end switch
 
-    // Otherwise free adc callback
-    return 1;
+    return complete;
 }
 
 //------------------------------------------------------------------------------
 //        __   __  , __
-//     | /__` |__)  /__`
+//     | /__` |__)  /__`   
 //     | .__/ |  \  .__/
 //
 //------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
-#ifndef SERIAL_H
-#define SERIAL_H
+#ifndef ADC_H
+#define ADC_H
 
 //------------------------------------------------------------------------------
 //             __             __   ___  __
@@ -19,13 +19,6 @@
 //
 //------------------------------------------------------------------------------
 
-#define SERIAL_BUSY (0)
-#define SERIAL_FREE (1)
-
-#define SERIAL_TX_READY (0)
-#define SERIAL_TX_BUSY (1)
-#define SERIAL_TX_COMPLETE (2)
-
 //------------------------------------------------------------------------------
 //     ___      __   ___  __   ___  ___  __
 //      |  \ / |__) |__  |  \ |__  |__  /__`
@@ -33,12 +26,7 @@
 //
 //------------------------------------------------------------------------------
 
-typedef uint8_t (*serial_callback_t)(void);
-
-typedef struct {
-    serial_callback_t rx;
-    serial_callback_t tx;
-} serial_t;
+typedef uint8_t (*adc_callback_t)(uint16_t);
 
 //------------------------------------------------------------------------------
 //                __          __        ___  __
@@ -54,6 +42,14 @@ typedef struct {
 //
 //------------------------------------------------------------------------------
 
+void adc_init();
+void adc_stop();
+void adc_read(uint8_t pin);
+
+uint8_t adc_register(adc_callback_t callback);
+void adc_unregister(adc_callback_t callback);
+void adc_set_default(adc_callback_t callback);
+
 //------------------------------------------------------------------------------
 //      __        __          __
 //     |__) |  | |__) |    | /  `
@@ -61,26 +57,5 @@ typedef struct {
 //
 //------------------------------------------------------------------------------
 
-void serial_init(uint32_t baudrate);
-uint8_t serial_timeout();
 
-uint8_t serial_tx_flag();
-uint8_t serial_rx_flag();
-
-uint8_t serial_read();
-void serial_write(uint8_t data);
-
-uint8_t serial_register(serial_t callback);
-uint8_t serial_registered();
-void serial_unregister(serial_t callback);
-void serial_set_default(serial_t callback);
-
-uint8_t serial_register_rx(serial_callback_t callback);
-void serial_unregister_rx(serial_callback_t callback);
-void serial_set_default_rx(serial_callback_t callback);
-
-uint8_t serial_register_tx(serial_callback_t callback);
-void serial_unregister_tx(serial_callback_t callback);
-void serial_set_default_tx(serial_callback_t callback);
-
-#endif /* SERIAL_H */
+#endif /* ADC_H */

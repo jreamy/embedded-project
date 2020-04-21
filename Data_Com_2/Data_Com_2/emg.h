@@ -8,6 +8,10 @@
 //
 //------------------------------------------------------------------------------
 
+#include "serial.h"
+#include "adc.h"
+
+#include <stddef.h>
 #include <stdint.h>
 #include <sam.h>
 
@@ -25,6 +29,17 @@
 //
 //------------------------------------------------------------------------------
 
+typedef union {
+    struct {
+        uint16_t channel1;
+        uint16_t channel2;
+        uint16_t channel3;
+    };
+
+    uint16_t data[3];
+    uint8_t bytes[6];
+} emg_data_t;
+
 //------------------------------------------------------------------------------
 //                __          __        ___  __
 //     \  /  /\  |__) |  /\  |__) |    |__  /__`
@@ -39,8 +54,10 @@
 //
 //------------------------------------------------------------------------------
 
-void emg_setup();
-uint8_t emg_sample();
+void emg_setup(uint8_t channel1, uint8_t channel2, uint8_t channel3);
+void emg_stop();
+uint8_t emg_sample(emg_data_t* output);
+uint8_t emg_sample_complete();
 
 //------------------------------------------------------------------------------
 //      __        __          __

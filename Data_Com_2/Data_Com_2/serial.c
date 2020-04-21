@@ -5,9 +5,7 @@
 //
 //------------------------------------------------------------------------------
 
-#include "sam.h"
 #include "serial.h"
-#include <stddef.h>
 
 //------------------------------------------------------------------------------
 //      __   ___  ___         ___  __
@@ -40,8 +38,10 @@
 //
 //------------------------------------------------------------------------------
 
-serial_tx_callback _tx_callback;
-serial_rx_callback _rx_callback;
+volatile serial_t _serial_callback = {0, 0};
+volatile serial_t _serial_default = {0, 0};
+
+uint8_t _serial_active;
 
 //------------------------------------------------------------------------------
 //      __   __   __  ___  __  ___      __   ___  __
@@ -50,6 +50,14 @@ serial_rx_callback _rx_callback;
 //
 //------------------------------------------------------------------------------
 
+uint8_t _serial_default_tx();
+uint8_t _serial_default_rx();
+
+uint8_t _serial_rx_registered();
+uint8_t _serial_tx_registered();
+
+void _serial_tx_clear();
+void _serial_timeout_reset();
 
 //------------------------------------------------------------------------------
 //      __        __          __
@@ -58,9 +66,9 @@ serial_rx_callback _rx_callback;
 //
 //------------------------------------------------------------------------------
 
-void serial_init(uint32_t baudrate)
-{
-	// Turn on transmitter and reciever
+//==============================================================================
+void serial_init(uint32_t baudrate) {
+	// Turn on transmitter and receiver
 
 	// TX (Pad0)
 	#if (SERIAL_TX_PIN % 2) // Odd Pin
@@ -126,68 +134,137 @@ void serial_init(uint32_t baudrate)
 	SERCOM5->USART.CTRLA.bit.ENABLE = 1;
 	while (SERCOM5->USART.SYNCBUSY.bit.ENABLE);
 
-	// Initialize the transfer callback to null
-	_tx_callback = (serial_tx_callback) 0;
+    // Set the defaults
+    _serial_default.rx = _serial_default_rx;
+    _serial_default.tx = _serial_default_tx;
+    _serial_callback = _serial_default;
+
+    // Prevent timeout
+    _serial_active = 1;
 }
 
 //==============================================================================
-uint8_t serial_available()
-{
+uint8_t serial_timeout() {
+    if (_serial_active) return _serial_active = 0;
+    else return serial_registered();
+}
+
+//==============================================================================
+uint8_t serial_tx_flag()  {
+    return SERCOM5->USART.INTFLAG.bit.TXC;
+}
+
+//==============================================================================
+uint8_t serial_rx_flag() {
 	return SERCOM5->USART.INTFLAG.bit.RXC;
 }
 
 //==============================================================================
-uint8_t serial_read()
-{
-	return SERCOM5->USART.DATA.bit.DATA;
+uint8_t serial_read() {
+    // Prevent timeout
+    _serial_active = 1;
+
+    uint8_t data = SERCOM5->USART.DATA.bit.DATA;
+    //serial_write(data); // for serial echo
+    return data;
 }
 
 //==============================================================================
-void serial_write(uint8_t data)
-{
+void serial_write(uint8_t data) {
+    // Prevent timeout
+    _serial_active = 1;
+
 	// Wait for buffer to be empty
-	while (! SERCOM5->USART.INTFLAG.bit.DRE);
+	while (!SERCOM5->USART.INTFLAG.bit.DRE);
 	SERCOM5->USART.DATA.bit.DATA = data;
 }
 
-uint8_t serial_register_tx(serial_tx_callback tx_func)
-{
-	if (*(_tx_callback) == (serial_tx_callback) 0) {
-		return _tx_callback = tx_func;
-	} else {
-		return 0;
-	}
+//==============================================================================
+uint8_t serial_register(serial_t callback) {
+    if (callback.rx && callback.tx) {
+        if (!_serial_rx_registered() && !_serial_tx_registered()) {
+            serial_register_rx(callback.rx);
+            serial_register_tx(callback.tx);
+            return 1;
+        }
+    }
+
+    else if (callback.rx) {
+        return serial_register_rx(callback.rx);
+    }
+
+    else if (callback.tx) {
+        return serial_register_tx(callback.tx);
+    }
+
+    return 0;
 }
 
-uint8_t serial_unregister_tx(serial_tx_callback tx_func)
-{
-	if (*(_tx_callback) == *(tx_func)) {
-		_tx_callback = (serial_tx_callback) 0;
-		return 1;
-	} else {
-		return 0;
-	}
+//==============================================================================
+uint8_t serial_registered() {
+    return ((_serial_callback.rx != _serial_default.rx) || 
+            (_serial_callback.tx != _serial_default.tx));
 }
 
-uint8_t serial_register_rx(serial_rx_callback rx_func)
-{
-	if (*(_rx_callback) == (serial_rx_callback) 0) {
-		return _rx_callback = rx_func;
-	} else {
-		return 0;
-	}
+//==============================================================================
+void serial_unregister(serial_t callback) {
+    serial_unregister_rx(callback.rx);
+    serial_unregister_tx(callback.tx);
 }
 
-uint8_t serial_unregister_rx(serial_rx_callback rx_func)
-{
-	if (*(_rx_callback) == *(rx_func)) {
-		_rx_callback = (serial_rx_callback) 0;
-		return 1;
-	} else {
-		return 0;
-	}
+//==============================================================================
+void serial_set_default(serial_t callback) {
+    _serial_default = callback;
 }
 
+//==============================================================================
+uint8_t serial_register_rx(serial_callback_t callback) {
+    if (!_serial_rx_registered()) {
+        _serial_active = 1;
+        _serial_callback.rx = callback;
+        return 1;
+    }
+    return 0;
+}
+
+//==============================================================================
+void serial_unregister_rx(serial_callback_t callback) {
+    if (_serial_callback.rx == callback) {
+        _serial_active = 1;
+        _serial_callback.rx = _serial_default.rx;
+    }
+}
+
+//==============================================================================
+void serial_set_default_rx(serial_callback_t callback) {
+    serial_register_rx(callback);
+    _serial_default.rx = callback;
+}
+
+//==============================================================================
+uint8_t serial_register_tx(serial_callback_t callback) {
+    if (!_serial_tx_registered()) {
+        _serial_active = 1;
+        _serial_callback.tx = callback;
+        return 1;
+    }
+
+    return 0;
+}
+
+//==============================================================================
+void serial_unregister_tx(serial_callback_t callback) {
+    if (_serial_callback.tx == callback) {
+        _serial_active = 1;
+        _serial_callback.tx = _serial_default.tx;
+    }
+}
+
+//==============================================================================
+void serial_set_default_tx(serial_callback_t callback) {
+    serial_register_tx(callback);
+    _serial_default.tx = callback;
+}
 
 //------------------------------------------------------------------------------
 //      __   __              ___  ___
@@ -196,12 +273,45 @@ uint8_t serial_unregister_rx(serial_rx_callback rx_func)
 //
 //------------------------------------------------------------------------------
 
+//==============================================================================
+uint8_t _serial_rx_registered() {
+    return (_serial_callback.rx != _serial_default.rx);
+}
+
+//==============================================================================
+uint8_t _serial_tx_registered() {
+    return (_serial_callback.tx != _serial_default.tx);
+}
+
+//==============================================================================
+void _serial_tx_clear() {
+    SERCOM5->USART.INTFLAG.bit.TXC = 1;
+}
+
+//==============================================================================
+void _serial_timeout_reset() {
+    serial_unregister(_serial_callback);
+}
+
 //------------------------------------------------------------------------------
 //      __                  __        __        __
 //     /  `  /\  |    |    |__)  /\  /  ` |__/ /__`
 //     \__, /~~\ |___ |___ |__) /~~\ \__, |  \ .__/
 //
 //------------------------------------------------------------------------------
+
+//==============================================================================
+uint8_t _serial_default_tx()
+{
+    return 0;
+}
+
+//==============================================================================
+uint8_t _serial_default_rx()
+{
+    serial_read();
+    return 0;
+}
 
 //------------------------------------------------------------------------------
 //        __   __  , __
@@ -210,13 +320,21 @@ uint8_t serial_unregister_rx(serial_rx_callback rx_func)
 //
 //------------------------------------------------------------------------------
 
-void SERCOM5_Handler()
-{
-	if (SERCOM5->USART.INTFLAG.bit.TXC) {
+//==============================================================================
+void SERCOM5_Handler() {
+    // Prevent timeout
+    _serial_active = 1;
+
+	if (serial_tx_flag()) {
 		// Clear the TX flag and call callback
-		SERCOM5->USART.INTFLAG.bit.TXC = 1;
-		_tx_callback();
-	} else if (SERCOM5->USART.INTFLAG.bit.RXC) {
-		_rx_callback(SERCOM5->USART.DATA.bit.DATA);
+		if (_serial_callback.tx()) {
+            _serial_callback.tx = _serial_default.tx;
+        }
+
+        _serial_tx_clear();
+	} else if (serial_rx_flag()) {
+		if (_serial_callback.rx()) {
+            _serial_callback.rx = _serial_default.rx;
+        }
 	}
 }

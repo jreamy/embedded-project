@@ -1,5 +1,5 @@
-#ifndef SERIAL_H
-#define SERIAL_H
+#ifndef KX003_H
+#define KX003_H
 
 //------------------------------------------------------------------------------
 //             __             __   ___  __
@@ -19,12 +19,14 @@
 //
 //------------------------------------------------------------------------------
 
-#define SERIAL_BUSY (0)
-#define SERIAL_FREE (1)
-
-#define SERIAL_TX_READY (0)
-#define SERIAL_TX_BUSY (1)
-#define SERIAL_TX_COMPLETE (2)
+#define KX003_XOUT_L    (0x06)
+#define KX003_XOUT_H    (0x07)
+#define KX003_YOUT_L    (0x08)
+#define KX003_YOUT_H    (0x09)
+#define KX003_ZOUT_L    (0x0A)
+#define KX003_ZOUT_H    (0x0B)
+#define KX003_STATUS    (0x18)
+#define KX003_CTRL_REG  (0x1D)
 
 //------------------------------------------------------------------------------
 //     ___      __   ___  __   ___  ___  __
@@ -32,13 +34,6 @@
 //      |   |  |    |___ |__/ |___ |    .__/
 //
 //------------------------------------------------------------------------------
-
-typedef uint8_t (*serial_callback_t)(void);
-
-typedef struct {
-    serial_callback_t rx;
-    serial_callback_t tx;
-} serial_t;
 
 //------------------------------------------------------------------------------
 //                __          __        ___  __
@@ -54,6 +49,11 @@ typedef struct {
 //
 //------------------------------------------------------------------------------
 
+void kx003_init(uint8_t addr);
+void kx003_stop(uint8_t addr);
+uint8_t kx003_read(uint8_t addr, uint8_t reg, uint8_t* dest, uint8_t bytes);
+uint8_t kx003_read_complete();
+
 //------------------------------------------------------------------------------
 //      __        __          __
 //     |__) |  | |__) |    | /  `
@@ -61,26 +61,5 @@ typedef struct {
 //
 //------------------------------------------------------------------------------
 
-void serial_init(uint32_t baudrate);
-uint8_t serial_timeout();
 
-uint8_t serial_tx_flag();
-uint8_t serial_rx_flag();
-
-uint8_t serial_read();
-void serial_write(uint8_t data);
-
-uint8_t serial_register(serial_t callback);
-uint8_t serial_registered();
-void serial_unregister(serial_t callback);
-void serial_set_default(serial_t callback);
-
-uint8_t serial_register_rx(serial_callback_t callback);
-void serial_unregister_rx(serial_callback_t callback);
-void serial_set_default_rx(serial_callback_t callback);
-
-uint8_t serial_register_tx(serial_callback_t callback);
-void serial_unregister_tx(serial_callback_t callback);
-void serial_set_default_tx(serial_callback_t callback);
-
-#endif /* SERIAL_H */
+#endif /* KX003_H */

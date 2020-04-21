@@ -1,5 +1,5 @@
-#ifndef SERIAL_H
-#define SERIAL_H
+#ifndef I2C_H
+#define I2C_H
 
 //------------------------------------------------------------------------------
 //             __             __   ___  __
@@ -19,12 +19,13 @@
 //
 //------------------------------------------------------------------------------
 
-#define SERIAL_BUSY (0)
-#define SERIAL_FREE (1)
-
-#define SERIAL_TX_READY (0)
-#define SERIAL_TX_BUSY (1)
-#define SERIAL_TX_COMPLETE (2)
+// Remove these
+#define TX_S ('1')
+#define TX_C ('2')
+#define TX_E ('3')
+#define RX_S ('4')
+#define RX_C ('5')
+#define RX_E ('6')
 
 //------------------------------------------------------------------------------
 //     ___      __   ___  __   ___  ___  __
@@ -33,12 +34,7 @@
 //
 //------------------------------------------------------------------------------
 
-typedef uint8_t (*serial_callback_t)(void);
-
-typedef struct {
-    serial_callback_t rx;
-    serial_callback_t tx;
-} serial_t;
+typedef uint8_t (*i2c_callback_t)(void);
 
 //------------------------------------------------------------------------------
 //                __          __        ___  __
@@ -54,6 +50,31 @@ typedef struct {
 //
 //------------------------------------------------------------------------------
 
+void i2c_init(uint32_t baudrate);
+void i2c_stop();
+uint8_t i2c_timeout();
+
+uint8_t i2c_tx_flag();
+uint8_t i2c_rx_flag();
+
+uint8_t i2c_begin_read(uint8_t addr);
+uint8_t i2c_begin_write(uint8_t addr);
+
+uint8_t i2c_read();
+void i2c_write(uint8_t data);
+
+void i2c_rx_stop();
+void i2c_tx_stop();
+
+void i2c_end_write(i2c_callback_t callback);
+void i2c_end_read(i2c_callback_t callback);
+
+uint8_t i2c_register(i2c_callback_t callback);
+void i2c_unregister(i2c_callback_t callback);
+void i2c_set_default(i2c_callback_t callback);
+
+uint8_t i2c_registered();
+
 //------------------------------------------------------------------------------
 //      __        __          __
 //     |__) |  | |__) |    | /  `
@@ -61,26 +82,5 @@ typedef struct {
 //
 //------------------------------------------------------------------------------
 
-void serial_init(uint32_t baudrate);
-uint8_t serial_timeout();
 
-uint8_t serial_tx_flag();
-uint8_t serial_rx_flag();
-
-uint8_t serial_read();
-void serial_write(uint8_t data);
-
-uint8_t serial_register(serial_t callback);
-uint8_t serial_registered();
-void serial_unregister(serial_t callback);
-void serial_set_default(serial_t callback);
-
-uint8_t serial_register_rx(serial_callback_t callback);
-void serial_unregister_rx(serial_callback_t callback);
-void serial_set_default_rx(serial_callback_t callback);
-
-uint8_t serial_register_tx(serial_callback_t callback);
-void serial_unregister_tx(serial_callback_t callback);
-void serial_set_default_tx(serial_callback_t callback);
-
-#endif /* SERIAL_H */
+#endif /* I2C_H */
