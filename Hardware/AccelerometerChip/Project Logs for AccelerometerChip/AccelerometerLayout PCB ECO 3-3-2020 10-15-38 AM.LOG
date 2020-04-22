@@ -1,6 +1,0 @@
-Change Component Designator: OldDesignator=A1 NewDesignator=U1
-Change Component Description : Designator=U1 Old Description=Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3.5kHz _X,Y_, 1.8kHz _Z_ 12-LGA _2x2_ New Description=
-Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3.5kHz _X,Y_, 1.8kHz _Z_ 12-LGA _2x2_
-
-Change Net Name : Old Net Name=NetA1_3 New Net Name=NetADDR_2
-Added Room: Name=AccelerometerSchematic
