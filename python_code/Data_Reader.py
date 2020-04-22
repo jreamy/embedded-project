@@ -63,7 +63,7 @@ class Data_Reader():
 
     def wait(self):
         while not self.available():
-            pass
+            print("", end="")
 
     def available(self):
         return self.ser.in_waiting
