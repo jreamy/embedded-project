@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator= NewDesignator=DR1
+Change Component Designator: OldDesignator= NewDesignator=DR2
+Change Component Designator: OldDesignator= NewDesignator=P1
+Change Component Designator: OldDesignator= NewDesignator=P2
+Change Component Designator: OldDesignator= NewDesignator=P3
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component DR1 4-40 DRILL HOLE
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component DR2 4-40 DRILL HOLE
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component P2 90120-0124
+Added Member To Class: ClassName=AccelerometerSchematic Member=Component P3 90120-0122
+Added Room: Name=AccelerometerSchematic

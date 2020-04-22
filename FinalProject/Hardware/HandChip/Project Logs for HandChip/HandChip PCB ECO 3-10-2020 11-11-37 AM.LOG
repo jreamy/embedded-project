@@ -1,0 +1,35 @@
+Change Component Comment : Designator=U2 Old Comment=Comment New Comment=PCA9548ADWR
+Change component parameters: Designator = "U2"; Footprint = "DW24"; UniqueID = "\SUQJZREU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_UL_Team"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "C"; Value = "Copyright (C) 2015 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PCA9548ADWR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "PCA9548ADWR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=U2-1
+Added Pin To Net: NetName=3V3 Pin=U2-2
+Added Pin To Net: NetName=3V3 Pin=U2-3
+Added Pin To Net: NetName=pre_SDA0 Pin=U2-4
+Added Pin To Net: NetName=pre_SCL0 Pin=U2-5
+Added Pin To Net: NetName=pre_SDA1 Pin=U2-6
+Added Pin To Net: NetName=pre_SCL1 Pin=U2-7
+Added Pin To Net: NetName=pre_SDA2 Pin=U2-8
+Added Pin To Net: NetName=pre_SCL2 Pin=U2-9
+Added Pin To Net: NetName=pre_SDA3 Pin=U2-10
+Added Pin To Net: NetName=pre_SCL3 Pin=U2-11
+Added Pin To Net: NetName=GND Pin=U2-12
+Added Pin To Net: NetName=pre_SDA4 Pin=U2-13
+Added Pin To Net: NetName=pre_SCL4 Pin=U2-14
+Added Pin To Net: NetName=pre_SDA5 Pin=U2-15
+Added Pin To Net: NetName=pre_SCL5 Pin=U2-16
+Added Pin To Net: NetName=pre_SDA6 Pin=U2-17
+Added Pin To Net: NetName=pre_SCL6 Pin=U2-18
+Added Pin To Net: NetName=pre_SDA7 Pin=U2-19
+Added Pin To Net: NetName=pre_SCL7 Pin=U2-20
+Added Pin To Net: NetName=3V3 Pin=U2-21
+Added Pin To Net: NetName=SCL_in Pin=U2-22
+Added Pin To Net: NetName=SDA_in Pin=U2-23
+Added Pin To Net: NetName=3V3 Pin=U2-24
+Added Member To Class: ClassName=HandChip Member=Component U2 PCA9548ADWR
+Added Room: Name=HandChip
