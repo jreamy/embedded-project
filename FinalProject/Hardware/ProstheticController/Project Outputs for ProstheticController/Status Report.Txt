@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ProstheticController.PrjPcb]
+   Generated File[ProstheticController.GTO]
+   Generated File[ProstheticController.GTS]
+   Generated File[ProstheticController.GTL]
+   Generated File[ProstheticController.GBL]
+   Generated File[ProstheticController.GBS]
+   Generated File[ProstheticController.GBO]
+   Generated File[ProstheticController.GKO]
+   Generated File[ProstheticController.RUL]
+   Generated File[ProstheticController.EXTREP]
+   Generated File[ProstheticController.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 7:22:18 PM On 4/25/2020

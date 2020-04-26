@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=3V3S Pin=THUMB1-1
+Removed Pin From Net: NetName=SDA0 Pin=THUMB1-2
+Removed Pin From Net: NetName=SCL1 Pin=THUMB1-3
+Removed Pin From Net: NetName=SDA1 Pin=THUMB1-4
+Removed Pin From Net: NetName=SCL0 Pin=THUMB1-5
+Removed Pin From Net: NetName=GND Pin=THUMB1-6
+Removed Member From Class: ClassName=HandChip Member=THUMB1
+Change Component Designator: OldDesignator=THUMB0 NewDesignator=THUMB
+Added Room: Name=HandChip

@@ -1,0 +1,47 @@
+Change Component Designator: OldDesignator=J NewDesignator=PWR
+Added Component: Designator=R1(0805-RES)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(SOP65P640X110-28N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "568-11925-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/nxp-usa-inc/PCA9685PW,118/568-11925-1-ND/5221902?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "NXP USA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PCA9685PW,118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSSOP-28 NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PCA9685PW%2C118/NXP%20USA%20Inc./view-part/1041520/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=PWM0 Pin=U1-6
+Added Pin To Net: NetName=PWM1 Pin=U1-7
+Added Pin To Net: NetName=PWM2 Pin=U1-8
+Added Pin To Net: NetName=PWM3 Pin=U1-9
+Added Pin To Net: NetName=PWM4 Pin=U1-10
+Added Pin To Net: NetName=PWM5 Pin=U1-11
+Added Pin To Net: NetName=PWM6 Pin=U1-12
+Added Pin To Net: NetName=PWM7 Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=PWM8 Pin=U1-15
+Added Pin To Net: NetName=PWM9 Pin=U1-16
+Added Pin To Net: NetName=PWM10 Pin=U1-17
+Added Pin To Net: NetName=PWM11 Pin=U1-18
+Added Pin To Net: NetName=PWM12 Pin=U1-19
+Added Pin To Net: NetName=PWM13 Pin=U1-20
+Added Pin To Net: NetName=PWM14 Pin=U1-21
+Added Pin To Net: NetName=PWM15 Pin=U1-22
+Added Pin To Net: NetName=NetR1_2 Pin=U1-23
+Added Pin To Net: NetName=GND Pin=U1-24
+Added Pin To Net: NetName=GND Pin=U1-25
+Added Pin To Net: NetName=SCL_S Pin=U1-26
+Added Pin To Net: NetName=SDA_S Pin=U1-27
+Added Pin To Net: NetName=5V Pin=U1-28
+Added Pin To Net: NetName=NetPWR_2 Pin=PWR-2
+Added Net: Name=NetPWR_2
+Added Member To Class: ClassName=ProstheticController Member=Component R1 10k
+Added Member To Class: ClassName=ProstheticController Member=Component U1 PCA9685PW,118
+Added Room: Name=ProstheticController

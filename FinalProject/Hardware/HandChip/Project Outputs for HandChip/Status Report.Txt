@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [HandChip.PrjPcb]
+   Generated File[HandChip.GTO]
+   Generated File[HandChip.GTS]
+   Generated File[HandChip.GTL]
+   Generated File[HandChip.GBL]
+   Generated File[HandChip.GBS]
+   Generated File[HandChip.GBO]
+   Generated File[HandChip.GKO]
+   Generated File[HandChip.RUL]
+   Generated File[HandChip.EXTREP]
+   Generated File[HandChip.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 3:07:37 PM On 4/25/2020

@@ -1,0 +1,31 @@
+Change Component Footprint: Designator=C1 Old Footprint=0805 New Footprint=0805-CAP
+Change Component Designator: OldDesignator=? NewDesignator=3V3 REG
+Change component parameters: Designator = "C1"; Footprint = "0805-CAP"; UniqueID = "\TBQSODQJ"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=C2(0805-CAP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(0805-CAP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L1(*SDR0403)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "digikey_Link"; Value = "https://www.digikey.com/product-detail/en/bourns-inc/SDR0403-2R2ML/SDR0403-2R2MLCT-ND/2127089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SDR0403-2R2ML"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Nonstandard Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=3V3S Pin=C3-2
+Added Pin To Net: NetName=3V3S Pin=L1-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetADDR_2 Pin=R1-2
+Change Net Name : Old Net Name=Net?_5 New Net Name=Net3V3 REG_5
+Added Pin To Net: NetName=Net3V3 REG_3 Pin=3V3 REG-3
+Added Pin To Net: NetName=Net3V3 REG_3 Pin=L1-1
+Added Net: Name=Net3V3 REG_3
+Added Member To Class: ClassName=HandChip Member=Component C2 Cap
+Added Member To Class: ClassName=HandChip Member=Component C3 Cap
+Added Member To Class: ClassName=HandChip Member=Component L1 SDR0403-2R2ML

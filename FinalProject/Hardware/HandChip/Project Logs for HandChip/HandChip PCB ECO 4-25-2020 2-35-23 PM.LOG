@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=3V3S Pin=P2-1
+Added Pin To Net: NetName=3V3S Pin=P3-1
+Added Pin To Net: NetName=3V3S Pin=P4-1
+Added Pin To Net: NetName=3V3S Pin=THUMB0-1
+Added Pin To Net: NetName=3V3S Pin=THUMB1-1
+Added Room: Name=HandChip
