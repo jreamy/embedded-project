@@ -44,33 +44,43 @@ The project consists of 5 different boards designed.  One chip for each joint of
 **Layouts**
 
 Finger Base:
-<img src="Hardware/FingerBase/Layout.png" alt="Board Layout of the finger base board" width="800"/>
+
+<img src="Hardware/FingerBase/Layout.png" alt="Board Layout of the finger base board" width="400"/>
 
 Finger Middle:
-<img src="Hardware/FingerMiddle/Layout.png" alt="Board Layout of the finger middle board" width="800"/>
+
+<img src="Hardware/FingerMiddle/Layout.png" alt="Board Layout of the finger middle board" width="400"/>
 
 Finger Tip:
-<img src="Hardware/FingerTip/Layout.png" alt="Board Layout of the finger tip board" width="800"/>
+
+<img src="Hardware/FingerTip/Layout.png" alt="Board Layout of the finger tip board" width="400"/>
 
 Hand Base:
-<img src="Hardware/HandChip/Layout.png" alt="Board Layout of the hand base board" width="800"/>
+
+<img src="Hardware/HandChip/Layout.png" alt="Board Layout of the hand base board" width="400"/>
 
 Prosthetic Controller:
-<img src="Hardware/ProstheticController/Layout.png" alt="Board Layout of the prosthetic controller board" width="800"/>
+
+<img src="Hardware/ProstheticController/Layout.png" alt="Board Layout of the prosthetic controller board" width="400"/>
 
 **Schematics**
 
 Finger Base:
-<img src="Hardware/FingerBase/Schematic.png" alt="Board Schematic of the finger base board" width="800"/>
+
+<img src="Hardware/FingerBase/Schematic.png" alt="Board Schematic of the finger base board" width="400"/>
 
 Finger Middle:
-<img src="Hardware/FingerMiddle/Schematic.png" alt="Board Schematic of the finger middle board" width="800"/>
+
+<img src="Hardware/FingerMiddle/Schematic.png" alt="Board Schematic of the finger middle board" width="400"/>
 
 Finger Tip:
-<img src="Hardware/FingerTip/Schematic.png" alt="Board Schematic of the finger tip board" width="800"/>
+
+<img src="Hardware/FingerTip/Schematic.png" alt="Board Schematic of the finger tip board" width="400"/>
 
 Hand Base:
-<img src="Hardware/HandChip/Schematic.png" alt="Board Schematic of the hand base board" width="800"/>
+
+<img src="Hardware/HandChip/Schematic.png" alt="Board Schematic of the hand base board" width="400"/>
 
 Prosthetic Controller:
-<img src="Hardware/ProstheticController/Schematic.png" alt="Board Schematic of the prosthetic controller board" width="800"/>
+
+<img src="Hardware/ProstheticController/Schematic.png" alt="Board Schematic of the prosthetic controller board" width="400"/>
