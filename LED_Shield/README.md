@@ -11,8 +11,10 @@ Drivers for `LP5036` were developed and tested using the I2C -> Serial protocol.
 
 ## Schematic
 
+The board schematic can be found in the [Hardware/Lab4.pdf](Hardware/Lab4.pdf) document.
 <img src="Hardware/Schematic.png" alt="LED Shield Driver Schematic" width="800"/>
 
 ## Layout
 
+The board layout can be found in the [Hardware/Lab4.pdf](Hardware/Lab4.pdf) document.
 <img src="Hardware/Layout.png" alt="LED Shield Driver Layout" width="500"/>

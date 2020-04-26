@@ -35,3 +35,8 @@ The primary I2C components communicated with are listed below:
  - Internal clock
  - 6-bit configurable address (1,addr,r/w)
  - page 9 for data transfer protocol
+
+
+### Boards Designed
+
+The project consists of 5 different boards designed.  One chip for each joint of the finger was designed: the [tip](Hardware/FingerTip), [middle](Hardware/FingerMiddle), and [base](Hardware/FingerBase).  A chip was also designed for the [base of the hand](Hardware/HandChip) containing an I2C mux for controlling the boards on each finger.  The final board designed was to control up to 16 servos (15 needed) that drive a primitive prosthetic hand.
