@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=PIN8 Pin=POWER-8
+Added Pin To Net: NetName=PIN8 Pin=POWER-8
+Added Net: Name=PIN8
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component POWER POWER_UNO

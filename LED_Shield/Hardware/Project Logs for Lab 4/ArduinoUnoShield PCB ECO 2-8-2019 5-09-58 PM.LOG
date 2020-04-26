@@ -1,0 +1,214 @@
+Removed Pin From Net: NetName=AD0 Pin=AD-1
+Removed Pin From Net: NetName=AD0 Pin=AD-1
+Removed Pin From Net: NetName=AD1 Pin=AD-2
+Removed Pin From Net: NetName=AD1 Pin=AD-2
+Removed Pin From Net: NetName=AD2 Pin=AD-3
+Removed Pin From Net: NetName=AD2 Pin=AD-3
+Removed Pin From Net: NetName=AD3 Pin=AD-4
+Removed Pin From Net: NetName=AD3 Pin=AD-4
+Removed Pin From Net: NetName=AD4 Pin=AD-5
+Removed Pin From Net: NetName=AD4 Pin=AD-5
+Removed Pin From Net: NetName=AD5 Pin=AD-6
+Removed Pin From Net: NetName=AD5 Pin=AD-6
+Removed Pin From Net: NetName=MISO Pin=ICSP-1
+Removed Pin From Net: NetName=5V Pin=ICSP-2
+Removed Pin From Net: NetName=SCK Pin=ICSP-3
+Removed Pin From Net: NetName=MOSI Pin=ICSP-4
+Removed Pin From Net: NetName=RESET Pin=ICSP-5
+Removed Pin From Net: NetName=GND Pin=ICSP-6
+Removed Pin From Net: NetName=IO8 Pin=IOH-1
+Removed Pin From Net: NetName=IO8 Pin=IOH-1
+Removed Pin From Net: NetName=IO9 Pin=IOH-2
+Removed Pin From Net: NetName=IO9 Pin=IOH-2
+Removed Pin From Net: NetName=IO10 Pin=IOH-3
+Removed Pin From Net: NetName=IO10 Pin=IOH-3
+Removed Pin From Net: NetName=IO11 Pin=IOH-4
+Removed Pin From Net: NetName=IO11 Pin=IOH-4
+Removed Pin From Net: NetName=IO12 Pin=IOH-5
+Removed Pin From Net: NetName=IO12 Pin=IOH-5
+Removed Pin From Net: NetName=IO13 Pin=IOH-6
+Removed Pin From Net: NetName=IO13 Pin=IOH-6
+Removed Pin From Net: NetName=GND Pin=IOH-7
+Removed Pin From Net: NetName=GND Pin=IOH-7
+Removed Pin From Net: NetName=AREF Pin=IOH-8
+Removed Pin From Net: NetName=AREF Pin=IOH-8
+Removed Pin From Net: NetName=SDA Pin=IOH-9
+Removed Pin From Net: NetName=SDA Pin=IOH-9
+Removed Pin From Net: NetName=SCL Pin=IOH-10
+Removed Pin From Net: NetName=SCL Pin=IOH-10
+Removed Pin From Net: NetName=IO0 Pin=IOL-1
+Removed Pin From Net: NetName=IO0 Pin=IOL-1
+Removed Pin From Net: NetName=IO1 Pin=IOL-2
+Removed Pin From Net: NetName=IO1 Pin=IOL-2
+Removed Pin From Net: NetName=IO2 Pin=IOL-3
+Removed Pin From Net: NetName=IO2 Pin=IOL-3
+Removed Pin From Net: NetName=IO3 Pin=IOL-4
+Removed Pin From Net: NetName=IO3 Pin=IOL-4
+Removed Pin From Net: NetName=IO4 Pin=IOL-5
+Removed Pin From Net: NetName=IO4 Pin=IOL-5
+Removed Pin From Net: NetName=IO5 Pin=IOL-6
+Removed Pin From Net: NetName=IO5 Pin=IOL-6
+Removed Pin From Net: NetName=IO6 Pin=IOL-7
+Removed Pin From Net: NetName=IO6 Pin=IOL-7
+Removed Pin From Net: NetName=IO7 Pin=IOL-8
+Removed Pin From Net: NetName=IO7 Pin=IOL-8
+Removed Pin From Net: NetName=VIN Pin=POWER-1
+Removed Pin From Net: NetName=VIN Pin=POWER-1
+Removed Pin From Net: NetName=GND Pin=POWER-2
+Removed Pin From Net: NetName=GND Pin=POWER-2
+Removed Pin From Net: NetName=GND Pin=POWER-3
+Removed Pin From Net: NetName=GND Pin=POWER-3
+Removed Pin From Net: NetName=5V Pin=POWER-4
+Removed Pin From Net: NetName=5V Pin=POWER-4
+Removed Pin From Net: NetName=3V3 Pin=POWER-5
+Removed Pin From Net: NetName=3V3 Pin=POWER-5
+Removed Pin From Net: NetName=RESET Pin=POWER-6
+Removed Pin From Net: NetName=RESET Pin=POWER-6
+Removed Pin From Net: NetName=IOREF Pin=POWER-7
+Removed Pin From Net: NetName=IOREF Pin=POWER-7
+Removed Pin From Net: NetName=PIN8 Pin=POWER-8
+Removed Pin From Net: NetName=PIN8 Pin=POWER-8
+Added Component: Designator=AD(Header 6x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "52553843"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2699089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-06-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "11P8269"; VariantName = "[No Variations]"
+Added Component: Designator=ICSP(ICSP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1185-03-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2699340"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "46091550"; VariantName = "[No Variations]"
+Added Component: Designator=IOH(Header 10x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2698789"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698803S4475693N1004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-10-ND"; VariantName = "[No Variations]"
+Added Component: Designator=IOL(Header 8x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2698925"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Added Component: Designator=POWER(Header 8x1 8.5mm v2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2698925"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "2698940"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AD0 Pin=AD-1
+Added Pin To Net: NetName=AD0 Pin=AD-1
+Added Pin To Net: NetName=AD0 Pin=AD-1
+Added Pin To Net: NetName=AD1 Pin=AD-2
+Added Pin To Net: NetName=AD1 Pin=AD-2
+Added Pin To Net: NetName=AD1 Pin=AD-2
+Added Pin To Net: NetName=AD2 Pin=AD-3
+Added Pin To Net: NetName=AD2 Pin=AD-3
+Added Pin To Net: NetName=AD2 Pin=AD-3
+Added Pin To Net: NetName=AD3 Pin=AD-4
+Added Pin To Net: NetName=AD3 Pin=AD-4
+Added Pin To Net: NetName=AD3 Pin=AD-4
+Added Pin To Net: NetName=AD4 Pin=AD-5
+Added Pin To Net: NetName=AD4 Pin=AD-5
+Added Pin To Net: NetName=AD4 Pin=AD-5
+Added Pin To Net: NetName=AD5 Pin=AD-6
+Added Pin To Net: NetName=AD5 Pin=AD-6
+Added Pin To Net: NetName=AD5 Pin=AD-6
+Added Pin To Net: NetName=MISO Pin=ICSP-1
+Added Pin To Net: NetName=5V Pin=ICSP-2
+Added Pin To Net: NetName=SCK Pin=ICSP-3
+Added Pin To Net: NetName=MOSI Pin=ICSP-4
+Added Pin To Net: NetName=RESET Pin=ICSP-5
+Added Pin To Net: NetName=GND Pin=ICSP-6
+Added Pin To Net: NetName=IO8 Pin=IOH-1
+Added Pin To Net: NetName=IO8 Pin=IOH-1
+Added Pin To Net: NetName=IO8 Pin=IOH-1
+Added Pin To Net: NetName=IO9 Pin=IOH-2
+Added Pin To Net: NetName=IO9 Pin=IOH-2
+Added Pin To Net: NetName=IO9 Pin=IOH-2
+Added Pin To Net: NetName=IO10 Pin=IOH-3
+Added Pin To Net: NetName=IO10 Pin=IOH-3
+Added Pin To Net: NetName=IO10 Pin=IOH-3
+Added Pin To Net: NetName=IO11 Pin=IOH-4
+Added Pin To Net: NetName=IO11 Pin=IOH-4
+Added Pin To Net: NetName=IO11 Pin=IOH-4
+Added Pin To Net: NetName=IO12 Pin=IOH-5
+Added Pin To Net: NetName=IO12 Pin=IOH-5
+Added Pin To Net: NetName=IO12 Pin=IOH-5
+Added Pin To Net: NetName=IO13 Pin=IOH-6
+Added Pin To Net: NetName=IO13 Pin=IOH-6
+Added Pin To Net: NetName=IO13 Pin=IOH-6
+Added Pin To Net: NetName=GND Pin=IOH-7
+Added Pin To Net: NetName=GND Pin=IOH-7
+Added Pin To Net: NetName=GND Pin=IOH-7
+Added Pin To Net: NetName=AREF Pin=IOH-8
+Added Pin To Net: NetName=AREF Pin=IOH-8
+Added Pin To Net: NetName=AREF Pin=IOH-8
+Added Pin To Net: NetName=SDA Pin=IOH-9
+Added Pin To Net: NetName=SDA Pin=IOH-9
+Added Pin To Net: NetName=SDA Pin=IOH-9
+Added Pin To Net: NetName=SCL Pin=IOH-10
+Added Pin To Net: NetName=SCL Pin=IOH-10
+Added Pin To Net: NetName=SCL Pin=IOH-10
+Added Pin To Net: NetName=IO0 Pin=IOL-1
+Added Pin To Net: NetName=IO0 Pin=IOL-1
+Added Pin To Net: NetName=IO0 Pin=IOL-1
+Added Pin To Net: NetName=IO1 Pin=IOL-2
+Added Pin To Net: NetName=IO1 Pin=IOL-2
+Added Pin To Net: NetName=IO1 Pin=IOL-2
+Added Pin To Net: NetName=IO2 Pin=IOL-3
+Added Pin To Net: NetName=IO2 Pin=IOL-3
+Added Pin To Net: NetName=IO2 Pin=IOL-3
+Added Pin To Net: NetName=IO3 Pin=IOL-4
+Added Pin To Net: NetName=IO3 Pin=IOL-4
+Added Pin To Net: NetName=IO3 Pin=IOL-4
+Added Pin To Net: NetName=IO4 Pin=IOL-5
+Added Pin To Net: NetName=IO4 Pin=IOL-5
+Added Pin To Net: NetName=IO4 Pin=IOL-5
+Added Pin To Net: NetName=IO5 Pin=IOL-6
+Added Pin To Net: NetName=IO5 Pin=IOL-6
+Added Pin To Net: NetName=IO5 Pin=IOL-6
+Added Pin To Net: NetName=IO6 Pin=IOL-7
+Added Pin To Net: NetName=IO6 Pin=IOL-7
+Added Pin To Net: NetName=IO6 Pin=IOL-7
+Added Pin To Net: NetName=IO7 Pin=IOL-8
+Added Pin To Net: NetName=IO7 Pin=IOL-8
+Added Pin To Net: NetName=IO7 Pin=IOL-8
+Added Pin To Net: NetName=VIN Pin=POWER-1
+Added Pin To Net: NetName=VIN Pin=POWER-1
+Added Pin To Net: NetName=VIN Pin=POWER-1
+Added Pin To Net: NetName=GND Pin=POWER-2
+Added Pin To Net: NetName=GND Pin=POWER-2
+Added Pin To Net: NetName=GND Pin=POWER-2
+Added Pin To Net: NetName=GND Pin=POWER-3
+Added Pin To Net: NetName=GND Pin=POWER-3
+Added Pin To Net: NetName=GND Pin=POWER-3
+Added Pin To Net: NetName=5V Pin=POWER-4
+Added Pin To Net: NetName=5V Pin=POWER-4
+Added Pin To Net: NetName=5V Pin=POWER-4
+Added Pin To Net: NetName=3V3 Pin=POWER-5
+Added Pin To Net: NetName=3V3 Pin=POWER-5
+Added Pin To Net: NetName=3V3 Pin=POWER-5
+Added Pin To Net: NetName=RESET Pin=POWER-6
+Added Pin To Net: NetName=RESET Pin=POWER-6
+Added Pin To Net: NetName=RESET Pin=POWER-6
+Added Pin To Net: NetName=IOREF Pin=POWER-7
+Added Pin To Net: NetName=IOREF Pin=POWER-7
+Added Pin To Net: NetName=IOREF Pin=POWER-7
+Added Pin To Net: NetName=PIN8 Pin=POWER-8
+Added Pin To Net: NetName=PIN8 Pin=POWER-8
+Added Pin To Net: NetName=PIN8 Pin=POWER-8

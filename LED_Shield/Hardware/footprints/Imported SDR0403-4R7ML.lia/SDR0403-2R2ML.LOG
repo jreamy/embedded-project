@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : SDR0403-4R7ML.LibPkg
+
+Section : \\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\footprints\SDR0403-4R7ML.lia
+    Section : PCB Library - SDR0403-4R7ML.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token WB_INDUCTOR On Line 110
+            Warning - 1 : Skipping Token attachedSymbol On Line 174
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - SDR0403-4R7ML.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 92
+            Warning - 1 : Skipping Token layerContents On Line 100
+        EndSection
+
+        Section : Generating SCH Library - SDR0403-4R7ML.SchLib
+        EndSection
+    EndSection
+EndSection

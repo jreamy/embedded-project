@@ -1,0 +1,47 @@
+Added Component: Designator=C1(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "CL21A475KPFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL21A475KPFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1259-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C2(0805_CAP_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "08056D226MAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "08056D226MAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-3647-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=L1(*SDR0403)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SDR0403-4R7ML"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Nonstandard Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SDR0403-4R7ML/Bourns/view-part/337560/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1 (Rfbt)(0805_RES_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "R-NP 0805"; VariantName = "[No Variations]"
+Added Component: Designator=R2 (Rfbb)(0805_RES_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "R-NP 0805"; VariantName = "[No Variations]"
+Added Component: Designator=SOT23-5(*SOT95P280X145-5N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U?(RJV0046A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LP5036RJVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Value"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C1 4.7uF, 10%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C2 22uF, 20%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component L1 SDR0403-2R2ML
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R1 (Rfbt) R-NP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 (Rfbb) R-NP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component SOT23-5 TLV62568DBVR
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component U? LP5036RJVR

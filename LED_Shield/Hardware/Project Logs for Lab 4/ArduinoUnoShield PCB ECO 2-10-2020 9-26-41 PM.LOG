@@ -1,0 +1,92 @@
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB2
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB3
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB4
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB5
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB6
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB7
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB8
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB9
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB10
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB11
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB12
+Added Component: Designator=RGB_1(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_2(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_3(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_4(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_5(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_6(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_7(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_8(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_9(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_10(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB_11(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetLED_1_4 Pin=RGB_1-1
+Added Pin To Net: NetName=NetLED_1_5 Pin=RGB_1-2
+Added Pin To Net: NetName=3V3S Pin=RGB_1-3
+Added Pin To Net: NetName=NetLED_1_6 Pin=RGB_1-4
+Added Pin To Net: NetName=NetLED_1_7 Pin=RGB_2-1
+Added Pin To Net: NetName=NetLED_1_8 Pin=RGB_2-2
+Added Pin To Net: NetName=3V3S Pin=RGB_2-3
+Added Pin To Net: NetName=NetLED_1_9 Pin=RGB_2-4
+Added Pin To Net: NetName=NetLED_1_10 Pin=RGB_3-1
+Added Pin To Net: NetName=NetLED_1_11 Pin=RGB_3-2
+Added Pin To Net: NetName=3V3S Pin=RGB_3-3
+Added Pin To Net: NetName=NetLED_1_12 Pin=RGB_3-4
+Added Pin To Net: NetName=NetLED_1_13 Pin=RGB_4-1
+Added Pin To Net: NetName=NetLED_1_14 Pin=RGB_4-2
+Added Pin To Net: NetName=3V3S Pin=RGB_4-3
+Added Pin To Net: NetName=NetLED_1_15 Pin=RGB_4-4
+Added Pin To Net: NetName=NetLED_1_16 Pin=RGB_5-1
+Added Pin To Net: NetName=NetLED_1_17 Pin=RGB_5-2
+Added Pin To Net: NetName=3V3S Pin=RGB_5-3
+Added Pin To Net: NetName=NetLED_1_18 Pin=RGB_5-4
+Added Pin To Net: NetName=NetLED_1_19 Pin=RGB_6-1
+Added Pin To Net: NetName=NetLED_1_20 Pin=RGB_6-2
+Added Pin To Net: NetName=3V3S Pin=RGB_6-3
+Added Pin To Net: NetName=NetLED_1_21 Pin=RGB_6-4
+Added Pin To Net: NetName=NetLED_1_22 Pin=RGB_7-1
+Added Pin To Net: NetName=NetLED_1_23 Pin=RGB_7-2
+Added Pin To Net: NetName=3V3S Pin=RGB_7-3
+Added Pin To Net: NetName=NetLED_1_24 Pin=RGB_7-4
+Added Pin To Net: NetName=NetLED_1_25 Pin=RGB_8-1
+Added Pin To Net: NetName=NetLED_1_26 Pin=RGB_8-2
+Added Pin To Net: NetName=3V3S Pin=RGB_8-3
+Added Pin To Net: NetName=NetLED_1_27 Pin=RGB_8-4
+Added Pin To Net: NetName=NetLED_1_28 Pin=RGB_9-1
+Added Pin To Net: NetName=NetLED_1_29 Pin=RGB_9-2
+Added Pin To Net: NetName=3V3S Pin=RGB_9-3
+Added Pin To Net: NetName=NetLED_1_30 Pin=RGB_9-4
+Added Pin To Net: NetName=NetLED_1_31 Pin=RGB_10-1
+Added Pin To Net: NetName=NetLED_1_32 Pin=RGB_10-2
+Added Pin To Net: NetName=3V3S Pin=RGB_10-3
+Added Pin To Net: NetName=NetLED_1_33 Pin=RGB_10-4
+Added Pin To Net: NetName=NetLED_1_34 Pin=RGB_11-1
+Added Pin To Net: NetName=NetLED_1_35 Pin=RGB_11-2
+Added Pin To Net: NetName=3V3S Pin=RGB_11-3
+Added Pin To Net: NetName=NetLED_1_36 Pin=RGB_11-4
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C1 4.7uF, 10%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C2 1uF, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component L1 SDR0403-2R2ML
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 (Rfbb) R-NP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_1 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_2 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_3 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_4 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_5 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_6 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_7 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_8 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_9 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_10 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_11 RGB LED

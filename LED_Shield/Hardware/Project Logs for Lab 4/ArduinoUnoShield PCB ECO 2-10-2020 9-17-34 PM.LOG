@@ -1,0 +1,46 @@
+Added Component: Designator=Q_1(*BSS138_BSS138(Primary))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "MICROSS/On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BSS138"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BSS138/MICROSS/On%20Semiconductor/view-part/215/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q_2(*BSS138_BSS138(Primary))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "MICROSS/On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BSS138"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BSS138/MICROSS/On%20Semiconductor/view-part/215/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q_3(*BSS138_BSS138(Primary))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "MICROSS/On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BSS138"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BSS138/MICROSS/On%20Semiconductor/view-part/215/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCL Pin=Q_1-D
+Added Pin To Net: NetName=3V3S Pin=Q_1-G
+Added Pin To Net: NetName=SCL_S Pin=Q_1-S
+Added Pin To Net: NetName=SDA Pin=Q_2-D
+Added Pin To Net: NetName=3V3S Pin=Q_2-G
+Added Pin To Net: NetName=SDA_S Pin=Q_2-S
+Added Pin To Net: NetName=3V3S Pin=Q_3-G
+Added Pin To Net: NetName=EN_S Pin=Q_3-S
+Added Pin To Net: NetName=NetQ_3_D Pin=Q_3-D
+Added Pin To Net: NetName=NetQ_3_D Pin=R6-1
+Added Pin To Net: NetName=NetQ_3_D Pin=R8-2
+Added Net: Name=NetQ_3_D
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C1 4.7uF, 10%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C2 1uF, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component L1 SDR0403-2R2ML
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component Q_1 BSS138
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component Q_2 BSS138
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component Q_3 BSS138
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 (Rfbb) R-NP

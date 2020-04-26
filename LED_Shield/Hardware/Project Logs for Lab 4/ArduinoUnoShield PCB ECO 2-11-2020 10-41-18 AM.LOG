@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=LED_1-48
+Removed Pin From Net: NetName=GND Pin=LED_1-49
+Removed Pin From Net: NetName=GND Pin=LED_1-50
+Removed Pin From Net: NetName=GND Pin=LED_1-51
+Removed Pin From Net: NetName=GND Pin=LED_1-52
+Removed Pin From Net: NetName=GND Pin=LED_1-53
+Removed Pin From Net: NetName=GND Pin=LED_1-54
+Removed Pin From Net: NetName=GND Pin=LED_1-55
+Removed Pin From Net: NetName=GND Pin=LED_1-56
+Removed Pin From Net: NetName=GND Pin=LED_1-57
+Removed Pin From Net: NetName=GND Pin=LED_1-58
+Removed Pin From Net: NetName=GND Pin=LED_1-59
+Removed Pin From Net: NetName=GND Pin=LED_1-60
+Removed Pin From Net: NetName=GND Pin=LED_1-61
+Removed Pin From Net: NetName=GND Pin=LED_1-62
+Removed Pin From Net: NetName=GND Pin=LED_1-63
+Removed Pin From Net: NetName=IOREF Pin=SW1-3
+Removed Pin From Net: NetName=IOREF Pin=SW1-6
+Change Component Designator: OldDesignator=R1 NewDesignator=R1 (Rfdt)
+Change Component Designator: OldDesignator=R2 NewDesignator=R2 (Rfbb)
+Added Pin To Net: NetName=3V3S Pin=SW1-3
+Added Pin To Net: NetName=3V3S Pin=SW1-6
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C1 4.7uF, 10%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C2 1uF, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component ICSP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component L1 SDR0403-2R2ML
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R1 (Rfdt) R-NP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 (Rfbb) R-NP
+Added Room: Name=ArduinoUnoShield

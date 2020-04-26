@@ -1,0 +1,15 @@
+Added Component: Designator=FID1(FIDUCIAL (50MIL ROUND))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "FIDUCIAL (50MIL ROUND)"; VariantName = "[No Variations]"
+Added Component: Designator=FID2(FIDUCIAL (50MIL ROUND))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "FIDUCIAL (50MIL ROUND)"; VariantName = "[No Variations]"
+Added Component: Designator=FID3(FIDUCIAL (50MIL ROUND))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "FIDUCIAL (50MIL ROUND)"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component FID1 FIDUCIAL
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component FID2 FIDUCIAL
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component FID3 FIDUCIAL
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R1 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 4.7K, 5%
+Added Room: Name=ArduinoUnoShield

@@ -1,0 +1,27 @@
+Added Component: Designator=ICSP(ICSP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1185-03-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2699340"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "46091550"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MISO Pin=ICSP-1
+Added Pin To Net: NetName=MISO Pin=ICSP-1
+Added Pin To Net: NetName=MISO Pin=ICSP-1
+Added Pin To Net: NetName=5V Pin=ICSP-2
+Added Pin To Net: NetName=5V Pin=ICSP-2
+Added Pin To Net: NetName=5V Pin=ICSP-2
+Added Pin To Net: NetName=SCK Pin=ICSP-3
+Added Pin To Net: NetName=SCK Pin=ICSP-3
+Added Pin To Net: NetName=SCK Pin=ICSP-3
+Added Pin To Net: NetName=MOSI Pin=ICSP-4
+Added Pin To Net: NetName=MOSI Pin=ICSP-4
+Added Pin To Net: NetName=MOSI Pin=ICSP-4
+Added Pin To Net: NetName=RESET Pin=ICSP-5
+Added Pin To Net: NetName=RESET Pin=ICSP-5
+Added Pin To Net: NetName=RESET Pin=ICSP-5
+Added Pin To Net: NetName=GND Pin=ICSP-6
+Added Pin To Net: NetName=GND Pin=ICSP-6
+Added Pin To Net: NetName=GND Pin=ICSP-6
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component ICSP

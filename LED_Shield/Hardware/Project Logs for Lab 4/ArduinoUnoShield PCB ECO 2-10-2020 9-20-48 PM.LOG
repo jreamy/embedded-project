@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=ArduinoUnoShield Member=RGB1
+Added Component: Designator=RGB_0(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetLED_1_1 Pin=RGB_0-1
+Added Pin To Net: NetName=NetLED_1_2 Pin=RGB_0-2
+Added Pin To Net: NetName=3V3S Pin=RGB_0-3
+Added Pin To Net: NetName=NetLED_1_3 Pin=RGB_0-4
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C1 4.7uF, 10%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component C2 1uF, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component L1 SDR0403-2R2ML
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 (Rfbb) R-NP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB_0 RGB LED

@@ -1,0 +1,315 @@
+Removed Member From Class: ClassName=ArduinoUnoShield Member=R1 (Rfbt)
+Removed Member From Class: ClassName=ArduinoUnoShield Member=SOT23-5
+Change Component Designator: OldDesignator=U? NewDesignator=LED_1
+Change component parameters: Designator = "LED_1"; Footprint = "RJV0046A"; UniqueID = "\IFTYHFVJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "LP5036RJVR"; VariantName = "[No Variations]"
+Added Component: Designator=3V3_REG(*SOT95P280X145-5N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C1(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "CL21A475KPFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL21A475KPFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1259-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C2(0805_CAP_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "08056D226MAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "08056D226MAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-3647-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=Cvcap(0805_CAP_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "08056D226MAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "08056D226MAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-3647-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=L1(*SDR0403)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "digikey_Link"; Value = "https://www.digikey.com/product-detail/en/bourns-inc/SDR0403-2R2ML/SDR0403-2R2MLCT-ND/2127089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SDR0403-2R2ML"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Nonstandard Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1 (Rfdt)(0805_RES_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "R-NP 0805"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R2 (Rfbb)(0805_RES_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "R-NP 0805"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R5(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R6(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R7(0603_RES_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "CRCW06030000Z0EA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CRCW06030000Z0EA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "541-0.0GCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R8(0603_RES_HD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "CRCW06030000Z0EA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CRCW06030000Z0EA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "541-0.0GCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R9(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Stackpole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RMCF0805JT4K70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RMCF0805JT4K70CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=RGB1(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB2(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB3(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB4(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB5(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB6(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB7(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB8(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB9(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB10(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB11(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RGB12(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW1(JS202011SCQN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "GFUPartNo"; Value = "JS202011SCQN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "C&K Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "JS202011SCQN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "401-2002-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=IOREF Pin=3V3_REG-1
+Added Pin To Net: NetName=GND Pin=3V3_REG-2
+Added Pin To Net: NetName=IOREF Pin=3V3_REG-4
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=IOREF Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=Cvcap-2
+Added Pin To Net: NetName=GND Pin=LED_1-37
+Added Pin To Net: NetName=GND Pin=LED_1-38
+Added Pin To Net: NetName=GND Pin=LED_1-39
+Added Pin To Net: NetName=GND Pin=LED_1-46
+Added Pin To Net: NetName=GND Pin=LED_1-47
+Added Pin To Net: NetName=GND Pin=R2 (Rfbb)-2
+Added Pin To Net: NetName=SCL Pin=R2-1
+Added Pin To Net: NetName=IOREF Pin=R2-2
+Added Pin To Net: NetName=SDA Pin=R4-1
+Added Pin To Net: NetName=IOREF Pin=R4-2
+Added Pin To Net: NetName=IOREF Pin=R6-2
+Added Pin To Net: NetName=IO8 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=IOREF Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=IOREF Pin=SW1-6
+Added Pin To Net: NetName=3V3S Pin=C2-2
+Added Pin To Net: NetName=3V3S Pin=L1-2
+Added Pin To Net: NetName=3V3S Pin=LED_1-40
+Added Pin To Net: NetName=3V3S Pin=R1 (Rfdt)-2
+Added Pin To Net: NetName=3V3S Pin=R1-2
+Added Pin To Net: NetName=3V3S Pin=R3-2
+Added Pin To Net: NetName=3V3S Pin=R5-2
+Added Net: Name=3V3S
+Added Pin To Net: NetName=EN_S Pin=LED_1-43
+Added Pin To Net: NetName=EN_S Pin=R5-1
+Added Pin To Net: NetName=EN_S Pin=R7-2
+Added Net: Name=EN_S
+Added Pin To Net: NetName=Net3V3_REG_3 Pin=3V3_REG-3
+Added Pin To Net: NetName=Net3V3_REG_3 Pin=L1-1
+Added Net: Name=Net3V3_REG_3
+Added Pin To Net: NetName=Net3V3_REG_5 Pin=3V3_REG-5
+Added Pin To Net: NetName=Net3V3_REG_5 Pin=R1 (Rfdt)-1
+Added Pin To Net: NetName=Net3V3_REG_5 Pin=R2 (Rfbb)-1
+Added Net: Name=Net3V3_REG_5
+Added Pin To Net: NetName=NetCvcap_1 Pin=Cvcap-1
+Added Pin To Net: NetName=NetCvcap_1 Pin=LED_1-45
+Added Net: Name=NetCvcap_1
+Added Pin To Net: NetName=NetLED_1_1 Pin=LED_1-1
+Added Net: Name=NetLED_1_1
+Added Pin To Net: NetName=NetLED_1_2 Pin=LED_1-2
+Added Net: Name=NetLED_1_2
+Added Pin To Net: NetName=NetLED_1_3 Pin=LED_1-3
+Added Net: Name=NetLED_1_3
+Added Pin To Net: NetName=NetLED_1_4 Pin=LED_1-4
+Added Net: Name=NetLED_1_4
+Added Pin To Net: NetName=NetLED_1_5 Pin=LED_1-5
+Added Net: Name=NetLED_1_5
+Added Pin To Net: NetName=NetLED_1_6 Pin=LED_1-6
+Added Net: Name=NetLED_1_6
+Added Pin To Net: NetName=NetLED_1_7 Pin=LED_1-7
+Added Net: Name=NetLED_1_7
+Added Pin To Net: NetName=NetLED_1_8 Pin=LED_1-8
+Added Net: Name=NetLED_1_8
+Added Pin To Net: NetName=NetLED_1_9 Pin=LED_1-9
+Added Net: Name=NetLED_1_9
+Added Pin To Net: NetName=NetLED_1_10 Pin=LED_1-10
+Added Net: Name=NetLED_1_10
+Added Pin To Net: NetName=NetLED_1_11 Pin=LED_1-11
+Added Net: Name=NetLED_1_11
+Added Pin To Net: NetName=NetLED_1_12 Pin=LED_1-12
+Added Net: Name=NetLED_1_12
+Added Pin To Net: NetName=NetLED_1_13 Pin=LED_1-13
+Added Net: Name=NetLED_1_13
+Added Pin To Net: NetName=NetLED_1_14 Pin=LED_1-14
+Added Net: Name=NetLED_1_14
+Added Pin To Net: NetName=NetLED_1_15 Pin=LED_1-15
+Added Net: Name=NetLED_1_15
+Added Pin To Net: NetName=NetLED_1_16 Pin=LED_1-16
+Added Net: Name=NetLED_1_16
+Added Pin To Net: NetName=NetLED_1_17 Pin=LED_1-17
+Added Net: Name=NetLED_1_17
+Added Pin To Net: NetName=NetLED_1_18 Pin=LED_1-18
+Added Net: Name=NetLED_1_18
+Added Pin To Net: NetName=NetLED_1_19 Pin=LED_1-19
+Added Net: Name=NetLED_1_19
+Added Pin To Net: NetName=NetLED_1_20 Pin=LED_1-20
+Added Net: Name=NetLED_1_20
+Added Pin To Net: NetName=NetLED_1_21 Pin=LED_1-21
+Added Net: Name=NetLED_1_21
+Added Pin To Net: NetName=NetLED_1_22 Pin=LED_1-22
+Added Net: Name=NetLED_1_22
+Added Pin To Net: NetName=NetLED_1_23 Pin=LED_1-23
+Added Net: Name=NetLED_1_23
+Added Pin To Net: NetName=NetLED_1_24 Pin=LED_1-24
+Added Net: Name=NetLED_1_24
+Added Pin To Net: NetName=NetLED_1_25 Pin=LED_1-25
+Added Net: Name=NetLED_1_25
+Added Pin To Net: NetName=NetLED_1_26 Pin=LED_1-26
+Added Net: Name=NetLED_1_26
+Added Pin To Net: NetName=NetLED_1_27 Pin=LED_1-27
+Added Net: Name=NetLED_1_27
+Added Pin To Net: NetName=NetLED_1_28 Pin=LED_1-28
+Added Net: Name=NetLED_1_28
+Added Pin To Net: NetName=NetLED_1_29 Pin=LED_1-29
+Added Net: Name=NetLED_1_29
+Added Pin To Net: NetName=NetLED_1_30 Pin=LED_1-30
+Added Net: Name=NetLED_1_30
+Added Pin To Net: NetName=NetLED_1_31 Pin=LED_1-31
+Added Net: Name=NetLED_1_31
+Added Pin To Net: NetName=NetLED_1_32 Pin=LED_1-32
+Added Net: Name=NetLED_1_32
+Added Pin To Net: NetName=NetLED_1_33 Pin=LED_1-33
+Added Net: Name=NetLED_1_33
+Added Pin To Net: NetName=NetLED_1_34 Pin=LED_1-34
+Added Net: Name=NetLED_1_34
+Added Pin To Net: NetName=NetLED_1_35 Pin=LED_1-35
+Added Net: Name=NetLED_1_35
+Added Pin To Net: NetName=NetLED_1_36 Pin=LED_1-36
+Added Net: Name=NetLED_1_36
+Added Pin To Net: NetName=NetLED_1_44 Pin=LED_1-44
+Added Pin To Net: NetName=NetLED_1_44 Pin=R9-2
+Added Net: Name=NetLED_1_44
+Added Pin To Net: NetName=NetQ3_D Pin=R6-1
+Added Pin To Net: NetName=NetQ3_D Pin=R8-2
+Added Net: Name=NetQ3_D
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=SW1-2
+Added Pin To Net: NetName=NetR7_1 Pin=SW1-5
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=SCL_S Pin=LED_1-42
+Added Pin To Net: NetName=SCL_S Pin=R1-1
+Added Net: Name=SCL_S
+Added Pin To Net: NetName=SDA_S Pin=LED_1-41
+Added Pin To Net: NetName=SDA_S Pin=R3-1
+Added Net: Name=SDA_S
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component 3V3_REG TLV62568DBVR
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component Cvcap 22uF, 20%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R1 (Rfdt) R-NP
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R1 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R2 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R3 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R4 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R5 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R6 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R7 0, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R8 0, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component R9 4.7K, 5%
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB1 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB2 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB3 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB4 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB5 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB6 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB7 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB8 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB9 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB10 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB11 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component RGB12 RGB LED
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component SW1 JS202011SCQN
+Added Room: Name=ArduinoUnoShield

@@ -1,0 +1,30 @@
+Added Component: Designator=AD(Header 6x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "52553843"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2699089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-06-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "11P8269"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AD5 Pin=AD-1
+Added Pin To Net: NetName=AD5 Pin=AD-1
+Added Pin To Net: NetName=AD5 Pin=AD-1
+Added Pin To Net: NetName=AD4 Pin=AD-2
+Added Pin To Net: NetName=AD4 Pin=AD-2
+Added Pin To Net: NetName=AD4 Pin=AD-2
+Added Pin To Net: NetName=AD3 Pin=AD-3
+Added Pin To Net: NetName=AD3 Pin=AD-3
+Added Pin To Net: NetName=AD3 Pin=AD-3
+Added Pin To Net: NetName=AD2 Pin=AD-4
+Added Pin To Net: NetName=AD2 Pin=AD-4
+Added Pin To Net: NetName=AD2 Pin=AD-4
+Added Pin To Net: NetName=AD1 Pin=AD-5
+Added Pin To Net: NetName=AD1 Pin=AD-5
+Added Pin To Net: NetName=AD1 Pin=AD-5
+Added Pin To Net: NetName=AD0 Pin=AD-6
+Added Pin To Net: NetName=AD0 Pin=AD-6
+Added Pin To Net: NetName=AD0 Pin=AD-6
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component AD
+Added Room: Name=ArduinoUnoShield

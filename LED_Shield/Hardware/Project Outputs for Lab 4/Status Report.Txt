@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Lab 4.PrjPCB]
+   Generated File[ArduinoUnoShield.TXT]
+   Generated File[ArduinoUnoShield.LDP]
+   Generated File[ArduinoUnoShield.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:20:39 AM On 2/12/2020

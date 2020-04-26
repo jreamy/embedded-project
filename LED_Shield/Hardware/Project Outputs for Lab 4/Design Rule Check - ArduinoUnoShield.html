@@ -1,0 +1,410 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD19\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2/12/2020</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9:37:45 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc" class="file"><acronym title="\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc">\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">22</td></tr>
+</table>
+</td>
+</table><a name="IDIA2RC51VSR13DCH3EL1JQE1QJCI45FN33ZZ4PMBRBS550I5ARYTI"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOAAET3JXHLZCMRCJXG212B2FJJWT2QP4DC3ZTHFNOIVQLAJVVVJO">Clearance Constraint (Gap=6mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDADAJ0DZK3XL3BACC30IRBGDCOJJ2VVEFNHHES4VH3VNIW2I0P3B">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHA3PDZE4QSTDOBTQRKBJ25KBJJB11NAU5ATICZOLDSG4IX4MLHND">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2SISWPJ3JLH1F5GZ4STLH1PRGLOVJKMFESIIUIPG1OLWJMGX0Q4G">Width Constraint (Min=6mil) (Max=100mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLERXHCOYZC3UCOA030UD30IVVIZEXHWZMLVO5W2DOQRKPQRYQZP">Power Plane Connect Rule(Relief Connect )(Expansion=10mil) (Conductor Width=8mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSI4WB1LSFNGWOC4QWYLLQAA3CD0PPIROVYLD2SBD4BC2PW5OWLUF">Minimum Annular Ring (Minimum=7mil) (All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTBDSQADKQACYH10CTTP01IGZ4C13FSZJRY3P5LLH1YP4J0TICZL">Hole Size Constraint (Min=8mil) (Max=251mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDL1J3PY11PZBGMICLHLVSUFIZDISHGRGIKTHFISJZ3WI2TMVDYKQC">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQUZEOKJ0JNVNDTKINESYHY221JDHA5ATBSDDHVN5HFQ1MAYWWUJ">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQHMKM1BLBTGWD20CCW3YCYKL5BGXHDDXZFXCD1HJVABNOEY4AQ2C">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPMJN02GND0SNDQTLBKV4FOOFMISZAIGHC1GISCIAKH4FOWTYOLVE">Minimum Solder Mask Sliver (Gap=1mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID45L4GTEBAIDVMJLBGS5IH1AEXP2PAGUYBEENJ2IFZOJGAGGLQI4M">Silk To Solder Mask (Clearance=5mil) (IsPad),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDO2FVEUN2N5SXOBSLI2FBVBIEYFMGWQRYOGHP4UNQIPV5MOFAUZMM">Silk to Silk (Clearance=1mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVYPPSLDGVR1AKE2ISA4XVANR0DS2KIYL2QQE2FEMSTR2TZWPVHHJ">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1XTFBR3PNPEBFKBTQLVI2XCRLIZF21RM3FGNFROPWBAYDBGO04AF">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">22</td>
+</tr>
+</table><br><a name="IDHA3PDZE4QSTDOBTQRKBJ25KBJJB11NAU5ATICZOLDSG4IX4MLHND"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2600mil|Location2.X=3905.512mil|Location1.Y=1334mil|Location2.Y=2528.031mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2600mil|Location2.X=3905.512mil|Location1.Y=1334mil|Location2.Y=2528.031mil|Absolute=True">Un-Routed Net Constraint: Net 5V Between Track (1500mil,190mil)(1500mil,204mil) on Top Layer And Pad ICSP-2(2605.512mil,1198.031mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2483mil|Location2.X=3646.512mil|Location1.Y=1389mil|Location2.Y=2245.031mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2483mil|Location2.X=3646.512mil|Location1.Y=1389mil|Location2.Y=2245.031mil|Absolute=True">Un-Routed Net Constraint: Net RESET Between Pad POWER-6(1300mil,190mil) on Bottom Layer And Pad ICSP-5(2415.512mil,998.031mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSI4WB1LSFNGWOC4QWYLLQAA3CD0PPIROVYLD2SBD4BC2PW5OWLUF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=7mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2331.536mil|Location2.Y=2339.786mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2331.536mil|Location2.Y=2339.786mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-48(1476.378mil,1098.74mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2331.536mil|Location2.Y=2339.786mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2331.536mil|Location2.Y=2339.786mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-49(1523.622mil,1098.74mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2174.056mil|Location2.Y=2182.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2174.056mil|Location2.Y=2182.306mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-50(1476.378mil,941.26mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2174.056mil|Location2.Y=2182.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2174.056mil|Location2.Y=2182.306mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-51(1523.622mil,941.26mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.82mil|Location2.X=2645.07mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.82mil|Location2.X=2645.07mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-52(1440.945mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-53(1476.378mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-54(1523.622mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2754.93mil|Location2.X=2763.18mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2754.93mil|Location2.X=2763.18mil|Location1.Y=2297.678mil|Location2.Y=2305.928mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-55(1559.055mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.82mil|Location2.X=2645.07mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.82mil|Location2.X=2645.07mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-56(1440.945mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-57(1476.378mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-58(1523.622mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2754.93mil|Location2.X=2763.18mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2754.93mil|Location2.X=2763.18mil|Location1.Y=2207.914mil|Location2.Y=2216.164mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-59(1559.055mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2754.93mil|Location2.X=2763.18mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2754.93mil|Location2.X=2763.18mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-60(1559.055mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.497mil|Location2.X=2727.747mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-61(1523.622mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2672.253mil|Location2.X=2680.503mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-62(1476.378mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.82mil|Location2.X=2645.07mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.82mil|Location2.X=2645.07mil|Location1.Y=2252.796mil|Location2.Y=2261.046mil|Absolute=True">Minimum Annular Ring: (5.843mil &lt; 7mil) Pad LED_1-63(1440.945mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID45L4GTEBAIDVMJLBGS5IH1AEXP2PAGUYBEENJ2IFZOJGAGGLQI4M"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=5mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3857.631mil|Location2.X=3863.881mil|Location1.Y=2354.875mil|Location2.Y=2361.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3857.631mil|Location2.X=3863.881mil|Location1.Y=2354.875mil|Location2.Y=2361.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.488mil &lt; 5mil) Between Pad ICSP-4(2675mil,1100mil) on Top Layer And Track (2655.512mil,948.031mil)(2655.512mil,1248.031mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.488mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2803.846mil|Location2.X=2810.096mil|Location1.Y=2146.068mil|Location2.Y=2152.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2803.846mil|Location2.X=2810.096mil|Location1.Y=2146.068mil|Location2.Y=2152.318mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (4.949mil &lt; 5mil) Between Pad LED_1-24(1595.472mil,925.512mil) on Top Layer And Track (1609mil,892mil)(1609mil,912mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.948mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2803.477mil|Location2.X=2809.727mil|Location1.Y=2346.648mil|Location2.Y=2352.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2803.477mil|Location2.X=2809.727mil|Location1.Y=2346.648mil|Location2.Y=2352.898mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (2.763mil &lt; 5mil) Between Pad LED_1-36(1595.472mil,1114.488mil) on Top Layer And Track (1608mil,1126mil)(1608mil,1131.158mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [2.763mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2773.909mil|Location2.X=2780.159mil|Location1.Y=2373.348mil|Location2.Y=2379.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=\\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2773.909mil|Location2.X=2780.159mil|Location1.Y=2373.348mil|Location2.Y=2379.598mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (4.568mil &lt; 5mil) Between Pad LED_1-37(1570.866mil,1135.158mil) on Top Layer And Track (1584.15mil,1148.031mil)(1608mil,1148.031mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.568mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

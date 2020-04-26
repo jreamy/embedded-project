@@ -1,0 +1,76 @@
+Protel Design System Design Rule Check
+PCB File : \\mcse-files1\studentfiles$\jreamy17\Documents\Altium\Lab 4\ArduinoUnoShield.PcbDoc
+Date     : 2/12/2020
+Time     : 9:37:45 AM
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 5V Between Track (1500mil,190mil)(1500mil,204mil) on Top Layer And Pad ICSP-2(2605.512mil,1198.031mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net RESET Between Pad POWER-6(1300mil,190mil) on Bottom Layer And Pad ICSP-5(2415.512mil,998.031mil) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=6mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=10mil) (Conductor Width=8mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=7mil) (All)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-48(1476.378mil,1098.74mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-49(1523.622mil,1098.74mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-50(1476.378mil,941.26mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-51(1523.622mil,941.26mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-52(1440.945mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-53(1476.378mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-54(1523.622mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-55(1559.055mil,1064.882mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-56(1440.945mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-57(1476.378mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-58(1523.622mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-59(1559.055mil,975.118mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-60(1559.055mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-61(1523.622mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-62(1476.378mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.843mil < 7mil) Pad LED_1-63(1440.945mil,1020mil) on Multi-Layer (Annular Ring=5.843mil) On (Top Layer)
+Rule Violations :16
+
+Processing Rule : Hole Size Constraint (Min=8mil) (Max=251mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.488mil < 5mil) Between Pad ICSP-4(2675mil,1100mil) on Top Layer And Track (2655.512mil,948.031mil)(2655.512mil,1248.031mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.488mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.949mil < 5mil) Between Pad LED_1-24(1595.472mil,925.512mil) on Top Layer And Track (1609mil,892mil)(1609mil,912mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.948mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (2.763mil < 5mil) Between Pad LED_1-36(1595.472mil,1114.488mil) on Top Layer And Track (1608mil,1126mil)(1608mil,1131.158mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [2.763mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.568mil < 5mil) Between Pad LED_1-37(1570.866mil,1135.158mil) on Top Layer And Track (1584.15mil,1148.031mil)(1608mil,1148.031mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.568mil]
+Rule Violations :4
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 22
+Waived Violations : 0
+Time Elapsed        : 00:00:00

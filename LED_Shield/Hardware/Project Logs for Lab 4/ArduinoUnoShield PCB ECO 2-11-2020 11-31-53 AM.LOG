@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=IOREF Pin=3V3_REG-1
+Removed Pin From Net: NetName=IOREF Pin=3V3_REG-4
+Removed Pin From Net: NetName=IOREF Pin=C1-2
+Added Pin To Net: NetName=5V Pin=3V3_REG-1
+Added Pin To Net: NetName=5V Pin=3V3_REG-4
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Room: Name=ArduinoUnoShield

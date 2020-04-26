@@ -1,0 +1,23 @@
+ICSP
+2505.512mil 1198.031mil
+
+IOL
+2500mil 2000mil
+
+IOH
+1640mil 2000mil
+
+POWER
+1800mil 100mil
+
+AD
+2000mil 100mil
+
+pad
+56mil 28mil
+90 mils away from center of hole
+
+
+https://support.jlcpcb.com/article/42-how-to-export-altium-pcb-to-gerber-files
+https://jlcpcb.com/capabilities/Capabilities
+
