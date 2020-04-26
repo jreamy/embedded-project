@@ -11,8 +11,8 @@ Drivers for `LP5036` were developed and tested using the I2C -> Serial protocol.
 
 ## Schematic
 
-<img src="Hardware/Schematic.png" alt="LED Shield Driver Schematic" width="400"/>
+<img src="Hardware/Schematic.png" alt="LED Shield Driver Schematic" width="800"/>
 
 ## Layout
 
-<img src="Hardware/Layout.png" alt="LED Shield Driver Layout" width="400"/>
+<img src="Hardware/Layout.png" alt="LED Shield Driver Layout" width="500"/>
