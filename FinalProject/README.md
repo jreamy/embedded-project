@@ -1,6 +1,14 @@
 
 # Mind-Controlled Prosthetic Fingers
 
+The Project consists of a hand monitoring device intended to collect EMG data and hand position data simultaneously, providing a useful tool for data collection in the field of prosthetics machine learning.  The project consists of the hand monitoring boards connected to the Arduino Zero via I2C, and the prosthetic controller, also connected via I2C, but with an external power supply.  
+
+The device is programmed to operate in one of four modes:
+ 1. **Solo** - this is the end product, an on board algorithm to read EMG data and apply the trained machine learning model, allowing to Arduino to control the prosthetic without any external computation.  The models are prototyped returning hard set values, but the data is collected and stored in such a way that trained models would be able to compute hand positions.
+ 2. **Control** - this is an intermediate testing mode where the device collects EMG data and sends it to a computer attached via serial.  The computer is then be responsible for performing computations and returning the output hand position to the device.
+ 3. **Mirror** - this is a hardware configuration mode where the arduino reads the hand position from the accelerometers and then mirrors the position in the prosthetic.  No ML models are used, just the actual position of the hand.  The computation of angles between accelerometer vectors is written and functional, including the correct servo controller signals being output.
+ 4. **Train** - this is the data collection mode for training machine learning models.  Data from the hand position and EMG monitors are stored in CSVs in the specified directory.  See [explanation of python scripts](python_code/README.md) for more information.
+
 ## Notes on software development
 
 Due to Coronavirus the hardware for the Final Project could not be completed.  I had originally intended to commute to school once a week in order to continue using the lab and complete the hardware, but as the lab closed I was no longer able to do so.  I developed an **I2C simulator** that forwards all I2C commands to Serial, with a python script simulating the various I2C hardware that needed to be communicated with.  The **Final Project** utilizes this driver, allowing the intended functionality of the hardware to be demonstrated, even though none of the I2C hardware is physically connected to the device.
