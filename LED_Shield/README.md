@@ -8,3 +8,11 @@ Due to Coronavirus the hardware for the LED Shield could not be completed.  I ha
 ### LED Shield Demonstration
 
 Drivers for `LP5036` were developed and tested using the I2C -> Serial protocol.  The current program in the ArduinoCode folder sets up the `LP5036` device and subsequently writes a circular pattern of LED colors.
+
+## Schematic
+
+<img src="Hardware/Schematic.png" alt="LED Shield Driver Schematic" width="400"/>
+
+## Layout
+
+<img src="Hardware/Layout.png" alt="LED Shield Driver Layout" width="400"/>
