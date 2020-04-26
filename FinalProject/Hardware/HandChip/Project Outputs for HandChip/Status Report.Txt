@@ -1,19 +1,12 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [HandChip.PrjPcb]
-   Generated File[HandChip.GTO]
-   Generated File[HandChip.GTS]
-   Generated File[HandChip.GTL]
-   Generated File[HandChip.GBL]
-   Generated File[HandChip.GBS]
-   Generated File[HandChip.GBO]
-   Generated File[HandChip.GKO]
-   Generated File[HandChip.RUL]
-   Generated File[HandChip.EXTREP]
-   Generated File[HandChip.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [HandChip.PrjPcb]
+   Generated File[HandChip.TXT]
+   Generated File[HandChip.LDP]
+   Generated File[HandChip.DRR]
 
 
-Files Generated   : 10
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 3:07:37 PM On 4/25/2020
+Finished Output Generation At 10:45:19 PM On 4/25/2020
