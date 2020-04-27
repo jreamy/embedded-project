@@ -3085,35 +3085,35 @@ OUTPUT(ArduinoCode.elf elf32-littlearm)
  .comment       0x00000059       0x5a servos.o
  .comment       0x00000059       0x5a timer.o
 
-.debug_info     0x00000000     0xfb03
+.debug_info     0x00000000     0xfb0e
  .debug_info    0x00000000     0x1a75 adc.o
  .debug_info    0x00001a75      0x722 compute.o
  .debug_info    0x00002197     0x3a2b Device_Startup/startup_samd21.o
  .debug_info    0x00005bc2     0x2b02 Device_Startup/system_samd21.o
  .debug_info    0x000086c4      0x8e5 emg.o
  .debug_info    0x00008fa9      0x579 hand.o
- .debug_info    0x00009522      0x559 i2c.o
- .debug_info    0x00009a7b      0x22e i2c_mux.o
- .debug_info    0x00009ca9      0x46b kx003.o
- .debug_info    0x0000a114      0xdd1 main.o
- .debug_info    0x0000aee5     0x3684 serial.o
- .debug_info    0x0000e569     0x10ed servos.o
- .debug_info    0x0000f656      0x4ad timer.o
+ .debug_info    0x00009522      0x564 i2c.o
+ .debug_info    0x00009a86      0x22e i2c_mux.o
+ .debug_info    0x00009cb4      0x46b kx003.o
+ .debug_info    0x0000a11f      0xdd1 main.o
+ .debug_info    0x0000aef0     0x3684 serial.o
+ .debug_info    0x0000e574     0x10ed servos.o
+ .debug_info    0x0000f661      0x4ad timer.o
 
-.debug_abbrev   0x00000000     0x1994
+.debug_abbrev   0x00000000     0x19d9
  .debug_abbrev  0x00000000      0x271 adc.o
  .debug_abbrev  0x00000271      0x1e3 compute.o
  .debug_abbrev  0x00000454      0x227 Device_Startup/startup_samd21.o
  .debug_abbrev  0x0000067b      0x184 Device_Startup/system_samd21.o
  .debug_abbrev  0x000007ff      0x1ff emg.o
  .debug_abbrev  0x000009fe      0x19a hand.o
- .debug_abbrev  0x00000b98      0x1a3 i2c.o
- .debug_abbrev  0x00000d3b      0x101 i2c_mux.o
- .debug_abbrev  0x00000e3c      0x14c kx003.o
- .debug_abbrev  0x00000f88      0x218 main.o
- .debug_abbrev  0x000011a0      0x332 serial.o
- .debug_abbrev  0x000014d2      0x312 servos.o
- .debug_abbrev  0x000017e4      0x1b0 timer.o
+ .debug_abbrev  0x00000b98      0x1e8 i2c.o
+ .debug_abbrev  0x00000d80      0x101 i2c_mux.o
+ .debug_abbrev  0x00000e81      0x14c kx003.o
+ .debug_abbrev  0x00000fcd      0x218 main.o
+ .debug_abbrev  0x000011e5      0x332 serial.o
+ .debug_abbrev  0x00001517      0x312 servos.o
+ .debug_abbrev  0x00001829      0x1b0 timer.o
 
 .debug_loc      0x00000000     0x1962
  .debug_loc     0x00000000      0x20c adc.o
@@ -3281,20 +3281,20 @@ OUTPUT(ArduinoCode.elf elf32-littlearm)
  .debug_macro   0x00013a5d       0xe4 servos.o
  .debug_macro   0x00013b41      0x2f3 timer.o
 
-.debug_line     0x00000000     0x6831
+.debug_line     0x00000000     0x6834
  .debug_line    0x00000000      0x80f adc.o
  .debug_line    0x0000080f      0x8e7 compute.o
  .debug_line    0x000010f6      0x6eb Device_Startup/startup_samd21.o
  .debug_line    0x000017e1      0x766 Device_Startup/system_samd21.o
  .debug_line    0x00001f47      0x726 emg.o
  .debug_line    0x0000266d      0x7c2 hand.o
- .debug_line    0x00002e2f      0x833 i2c.o
- .debug_line    0x00003662      0x725 i2c_mux.o
- .debug_line    0x00003d87      0x7c3 kx003.o
- .debug_line    0x0000454a      0x934 main.o
- .debug_line    0x00004e7e      0x943 serial.o
- .debug_line    0x000057c1      0x946 servos.o
- .debug_line    0x00006107      0x72a timer.o
+ .debug_line    0x00002e2f      0x836 i2c.o
+ .debug_line    0x00003665      0x725 i2c_mux.o
+ .debug_line    0x00003d8a      0x7c3 kx003.o
+ .debug_line    0x0000454d      0x934 main.o
+ .debug_line    0x00004e81      0x943 serial.o
+ .debug_line    0x000057c4      0x946 servos.o
+ .debug_line    0x0000610a      0x72a timer.o
 
 .debug_str      0x00000000    0x7404e
  .debug_str     0x00000000    0x6cdf0 adc.o
