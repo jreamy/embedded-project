@@ -113,7 +113,7 @@ class SERCOM():
             com = command_char
 
         # Optionally print the serial data
-        if self.show:
+        if com and data and self.show:
             print(com, data)
 
         # Return the command and data
