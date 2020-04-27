@@ -1645,23 +1645,23 @@ OUTPUT(ArduinoCode.elf elf32-littlearm)
  .comment       0x00000059       0x5a serial.o
  .comment       0x00000059       0x5a timer.o
 
-.debug_info     0x00000000     0xae5e
+.debug_info     0x00000000     0xae6a
  .debug_info    0x00000000     0x3a28 Device_Startup/startup_samd21.o
  .debug_info    0x00003a28     0x2b02 Device_Startup/system_samd21.o
- .debug_info    0x0000652a      0x5c0 i2c.o
- .debug_info    0x00006aea      0x48c LP5036.o
- .debug_info    0x00006f76      0x334 main.o
- .debug_info    0x000072aa     0x3700 serial.o
- .debug_info    0x0000a9aa      0x4b4 timer.o
+ .debug_info    0x0000652a      0x5cc i2c.o
+ .debug_info    0x00006af6      0x48c LP5036.o
+ .debug_info    0x00006f82      0x334 main.o
+ .debug_info    0x000072b6     0x3700 serial.o
+ .debug_info    0x0000a9b6      0x4b4 timer.o
 
-.debug_abbrev   0x00000000      0xec3
+.debug_abbrev   0x00000000      0xf06
  .debug_abbrev  0x00000000      0x234 Device_Startup/startup_samd21.o
  .debug_abbrev  0x00000234      0x184 Device_Startup/system_samd21.o
- .debug_abbrev  0x000003b8      0x220 i2c.o
- .debug_abbrev  0x000005d8      0x1c5 LP5036.o
- .debug_abbrev  0x0000079d      0x17a main.o
- .debug_abbrev  0x00000917      0x3f0 serial.o
- .debug_abbrev  0x00000d07      0x1bc timer.o
+ .debug_abbrev  0x000003b8      0x263 i2c.o
+ .debug_abbrev  0x0000061b      0x1c5 LP5036.o
+ .debug_abbrev  0x000007e0      0x17a main.o
+ .debug_abbrev  0x0000095a      0x3f0 serial.o
+ .debug_abbrev  0x00000d4a      0x1bc timer.o
 
 .debug_loc      0x00000000      0xbb0
  .debug_loc     0x00000000       0x40 Device_Startup/startup_samd21.o
@@ -1781,14 +1781,14 @@ OUTPUT(ArduinoCode.elf elf32-littlearm)
  .debug_macro   0x00011810      0x331 serial.o
  .debug_macro   0x00011b41      0x2f3 timer.o
 
-.debug_line     0x00000000     0x3595
+.debug_line     0x00000000     0x3598
  .debug_line    0x00000000      0x6df Device_Startup/startup_samd21.o
  .debug_line    0x000006df      0x762 Device_Startup/system_samd21.o
- .debug_line    0x00000e41      0x84d i2c.o
- .debug_line    0x0000168e      0x7df LP5036.o
- .debug_line    0x00001e6d      0x738 main.o
- .debug_line    0x000025a5      0x8f5 serial.o
- .debug_line    0x00002e9a      0x6fb timer.o
+ .debug_line    0x00000e41      0x850 i2c.o
+ .debug_line    0x00001691      0x7df LP5036.o
+ .debug_line    0x00001e70      0x738 main.o
+ .debug_line    0x000025a8      0x8f5 serial.o
+ .debug_line    0x00002e9d      0x6fb timer.o
 
 .debug_str      0x00000000    0x6f739
  .debug_str     0x00000000    0x6d367 Device_Startup/startup_samd21.o

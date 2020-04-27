@@ -15,23 +15,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   5 .comment      00000059  00000000  00000000  0002045c  2**0
                   CONTENTS, READONLY
-  6 .debug_info   0000ae5e  00000000  00000000  000204b5  2**0
+  6 .debug_info   0000ae6a  00000000  00000000  000204b5  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 00000ec3  00000000  00000000  0002b313  2**0
+  7 .debug_abbrev 00000f06  00000000  00000000  0002b31f  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_loc    00000bb0  00000000  00000000  0002c1d6  2**0
+  8 .debug_loc    00000bb0  00000000  00000000  0002c225  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_aranges 00000270  00000000  00000000  0002cd86  2**0
+  9 .debug_aranges 00000270  00000000  00000000  0002cdd5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_ranges 00000218  00000000  00000000  0002cff6  2**0
+ 10 .debug_ranges 00000218  00000000  00000000  0002d045  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_macro  00011e34  00000000  00000000  0002d20e  2**0
+ 11 .debug_macro  00011e34  00000000  00000000  0002d25d  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_line   00003595  00000000  00000000  0003f042  2**0
+ 12 .debug_line   00003598  00000000  00000000  0003f091  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_str    0006f739  00000000  00000000  000425d7  2**0
+ 13 .debug_str    0006f739  00000000  00000000  00042629  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_frame  00000900  00000000  00000000  000b1d10  2**2
+ 14 .debug_frame  00000900  00000000  00000000  000b1d64  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -632,6 +632,11 @@ void i2c_init(uint32_t baudrate) {
     _i2c_callback = _i2c_default_func;
      3c4:	4a0b      	ldr	r2, [pc, #44]	; (3f4 <i2c_init+0x58>)
      3c6:	6013      	str	r3, [r2, #0]
+    I2C_SERCOM->I2CM.INTENSET.bit.SB = 1;
+    
+    NVIC_SetPriority(SERCOM3_IRQn, 3);
+    NVIC_EnableIRQ(SERCOM3_IRQn);
+    */
 }
      3c8:	4770      	bx	lr
      3ca:	46c0      	nop			; (mov r8, r8)

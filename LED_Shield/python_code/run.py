@@ -61,7 +61,7 @@ def main():
     """
 
     # Set the i2c to display what's happening
-    i2ccom.i2c.show = False
+    i2ccom.i2c.show = True
     sercom.show = False
 
     # Run the i2c_communication
